@@ -7492,12 +7492,6 @@
 		(uuid "07884ff2-10d3-4e87-99b8-510e7a226406")
 	)
 	(junction
-		(at 271.78 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cfc69c6-f1f9-48be-993b-15d73453a392")
-	)
-	(junction
 		(at 68.58 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8299,16 +8293,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 20.32) (xy 273.05 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31c388e4-eb07-4b1c-9241-92d0aabed1b8")
-	)
-	(wire
-		(pts
 			(xy 118.11 120.65) (xy 119.38 120.65)
 		)
 		(stroke
@@ -8776,6 +8760,16 @@
 			(type default)
 		)
 		(uuid "4dc7fe24-2436-4a0a-b765-cfc4e935e77f")
+	)
+	(wire
+		(pts
+			(xy 48.26 48.26) (xy 50.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef47503-5246-4618-ad2a-afbaaaf846c2")
 	)
 	(wire
 		(pts
@@ -9279,16 +9273,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 20.32) (xy 271.78 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f4a2578-2f4e-4ed9-a6d6-275dbf4add02")
-	)
-	(wire
-		(pts
 			(xy 140.97 149.86) (xy 149.86 149.86)
 		)
 		(stroke
@@ -9519,16 +9503,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 20.32) (xy 254 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5773e8d-0b48-405a-b867-b380571631d6")
-	)
-	(wire
-		(pts
 			(xy 52.07 180.34) (xy 63.5 180.34)
 		)
 		(stroke
@@ -9566,6 +9540,16 @@
 			(type default)
 		)
 		(uuid "ad0c2496-09ee-43a5-9966-70162f290fd9")
+	)
+	(wire
+		(pts
+			(xy 43.18 48.26) (xy 36.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0db87f-4d91-4d13-9d73-b92b4a97b94e")
 	)
 	(wire
 		(pts
@@ -9959,6 +9943,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 48.26) (xy 29.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef57aec3-8a59-4aaa-bf2b-f56bc483d77c")
+	)
+	(wire
+		(pts
 			(xy 200.66 31.75) (xy 194.31 31.75)
 		)
 		(stroke
@@ -10094,6 +10088,17 @@
 		(uuid "c6a31c5c-257b-4215-aee6-d87302361ef9")
 	)
 	(label "LB"
+		(at 50.8 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "001602e0-9af2-426a-a56e-0bbe0f46f034")
+	)
+	(label "LB"
 		(at 68.58 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10116,7 +10121,7 @@
 		(uuid "0dac48c0-720c-4710-8329-df534b5fd87a")
 	)
 	(label "LB"
-		(at 273.05 20.32 0)
+		(at 271.78 20.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10202,6 +10207,17 @@
 			(justify right)
 		)
 		(uuid "e0c3d394-4fe3-4817-bac7-b8a388cc1666")
+	)
+	(label "LA"
+		(at 22.86 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3467d34-4f07-4fea-9c74-2d1ac9fafd30")
 	)
 	(label "LA"
 		(at 39.37 74.93 0)
@@ -12141,6 +12157,74 @@
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "Q1")
 					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ca77112-9987-4cee-a0fe-a0751bf13d0f")
+		(property "Reference" "R12"
+			(at 33.02 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R2.2"
+			(at 33.02 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a801948c-cad4-477d-a7a1-a55e866ec26e")
+		)
+		(pin "2"
+			(uuid "0ea776c5-7636-47d2-870e-ccffc388ca35")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "R12")
+					(unit 1)
 				)
 			)
 		)
@@ -14546,6 +14630,74 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 45.72 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a27417a-6228-4e3e-ba79-a15e07edd8e8")
+		(property "Reference" "C8"
+			(at 45.7263 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.2pF"
+			(at 45.7263 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba9436ba-2fad-41bb-8922-5266e96cbd4c")
+		)
+		(pin "1"
+			(uuid "97ab9208-df98-48de-a51c-09b78640120d")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -17610,77 +17762,6 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MLZ1608A1R0WT000")
-		(at 259.08 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7dbddce-4406-4ede-b40e-abaf214eaf95")
-		(property "Reference" "L2"
-			(at 257.7846 14.5669 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "2.7uH"
-			(at 257.7846 16.7767 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Downloads:antenna"
-			(at 259.08 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "182229bc-67ae-4713-a374-e208907f6dfc")
-		)
-		(pin "1"
-			(uuid "c6c96495-3d59-4c6f-9a85-520df4194ee5")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "L2")
 					(unit 1)
 				)
 			)

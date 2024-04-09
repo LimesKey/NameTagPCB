@@ -9731,9 +9731,9 @@
 		)
 		(uuid "a1383f82-2aa1-4caa-b9ab-ddc2e389e5d8")
 	)
-	(text "BMS"
+	(text "Battery Manangment System (BMS)"
 		(exclude_from_sim no)
-		(at 181.61 18.1483 0)
+		(at 175.768 14.986 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -14839,7 +14839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76d2709c-bb4f-47f5-a159-c570d1d6599b")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 38.0746 31.0769 0)
 			(effects
 				(font
@@ -14895,7 +14895,7 @@
 		(instances
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)

@@ -7146,12 +7146,6 @@
 		(uuid "368b853e-9f2a-41a4-b2e3-78c8f8854328")
 	)
 	(junction
-		(at 34.29 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38f09dec-648c-4fbf-97f3-28a4eb0e0cf5")
-	)
-	(junction
 		(at 248.92 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7186,12 +7180,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55d86ca9-59f0-4d9f-aff8-18cafe1a0537")
-	)
-	(junction
-		(at 44.45 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57c97690-04ed-487b-807c-379e45cf2808")
 	)
 	(junction
 		(at 115.57 40.64)
@@ -9166,16 +9154,6 @@
 			(type default)
 		)
 		(uuid "ad0c2496-09ee-43a5-9966-70162f290fd9")
-	)
-	(wire
-		(pts
-			(xy 34.29 48.26) (xy 44.45 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad0db87f-4d91-4d13-9d73-b92b4a97b94e")
 	)
 	(wire
 		(pts
@@ -16629,7 +16607,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SMA_L4.2-W2.6-LS5.3-RD"
+		(property "Footprint" "easyeda2kicad:SOD-123_L2.8-W1.8-LS3.7-RD"
 			(at 252.73 133.35 0)
 			(effects
 				(font
@@ -16700,7 +16678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SolderJumper_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 31.75 170.18 0)
 			(effects
 				(font
@@ -17186,7 +17164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SolderJumper_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 45.72 170.18 0)
 			(effects
 				(font

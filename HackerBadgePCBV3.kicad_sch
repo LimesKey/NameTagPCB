@@ -6,8 +6,8 @@
 	(paper "User" 292.1 205.105)
 	(title_block
 		(title "Apocalypse's Nametag PCB")
-		(date "2024-04-11")
-		(rev "3.1")
+		(date "2024-04-14")
+		(rev "3.2")
 		(company "Apocalypse - Hack Club")
 	)
 	(lib_symbols
@@ -1421,169 +1421,6 @@
 						(effects
 							(font
 								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5410,6 +5247,231 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:RB521S30T1G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RB521S30T1G"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOD-523_L1.2-W0.8-LS1.6-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ON_RB521S30T1G_RB521S30T1G_C145179.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C145179"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RB521S30T1G_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.03) (xy -1.27 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:RC0402FR-071R91L"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0402FR-071R91L"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-071R91L_C477600.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C477600"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0402FR-071R91L_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda2kicad:RC0402FR-07680KL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6289,19 +6351,19 @@
 				)
 			)
 		)
-		(symbol "easyeda2kicad:WS2812B-XF02_W"
+		(symbol "easyeda2kicad:V3R3C0201C0G500NAT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 7.62 0)
+			(property "Reference" "C"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "WS2812B-XF02/W"
+			(property "Value" "V3R3C0201C0G500NAT"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -6309,7 +6371,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-TL"
+			(property "Footprint" "easyeda2kicad:C0201"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -6318,8 +6380,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_VIIYONG-V3R3C0201C0G500NAT_C609972.html"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6336,8 +6398,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C4154882"
-				(at 0 -10.16 0)
+			(property "LCSC Part" "C609972"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6345,21 +6407,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "WS2812B-XF02_W_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -2.54)
-					(stroke
-						(width 0)
-						(type default)
+			(symbol "V3R3C0201C0G500NAT_0_1"
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
 					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -8.89 3.81)
-					(radius 0.38)
 					(stroke
 						(width 0)
 						(type default)
@@ -6370,20 +6422,44 @@
 				)
 				(polyline
 					(pts
-						(xy 9.65 -0.51) (xy 9.65 -2.03) (xy 8.13 -2.03) (xy 9.65 -0.51)
+						(xy -0.51 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin unspecified line
-					(at -12.7 2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "VDD"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6399,9 +6475,126 @@
 					)
 				)
 				(pin unspecified line
-					(at -12.7 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "DOUT"
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:WS2813B-V5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WS2813B-V5"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LED-SMD_6P-L5.0-W5.0-TL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2813B-V5_C965558.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C965558"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2813B-V5_0_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "BO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6417,9 +6610,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 12.7 0 180)
+					(at -8.89 -2.54 0)
 					(length 2.54)
-					(name "VSS"
+					(name "DO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6435,9 +6628,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 12.7 2.54 180)
+					(at 8.89 -2.54 180)
 					(length 2.54)
-					(name "DIN"
+					(name "DI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6445,6 +6638,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "BI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7079,12 +7308,6 @@
 		(uuid "5fc08735-0176-45dd-9b5c-c98329424aea")
 	)
 	(junction
-		(at 134.62 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "651df546-9eb7-4249-85a4-3366162ca458")
-	)
-	(junction
 		(at 138.43 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7145,6 +7368,12 @@
 		(uuid "8a0a59ec-030b-4b3d-803a-3924b4f1c05e")
 	)
 	(junction
+		(at 60.96 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cc0ca78-8934-4b80-bece-f57b6a123396")
+	)
+	(junction
 		(at 90.17 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7173,6 +7402,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a18af633-a530-43ce-8137-e1c9cba5c179")
+	)
+	(junction
+		(at 153.67 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a77ab78f-1651-4c4e-af9f-0961eac6343b")
 	)
 	(junction
 		(at 82.55 64.77)
@@ -7211,6 +7446,12 @@
 		(uuid "d4cf79df-63f0-436b-9b41-de75e05784da")
 	)
 	(junction
+		(at 71.12 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5fc8fbc-e1d5-4d7d-9403-b04f3cfeddae")
+	)
+	(junction
 		(at 113.03 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7229,16 +7470,16 @@
 		(uuid "e55dc7c1-5245-4e7e-89cc-a1e5099c6374")
 	)
 	(junction
+		(at 44.45 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6c4cf86-bf4d-445b-992b-fd5cdfdd42c8")
+	)
+	(junction
 		(at 170.18 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7d50c80-669b-4820-9ef7-e38830038cb5")
-	)
-	(junction
-		(at 134.62 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eebedaa5-2872-47fa-aa06-0db16e6ec120")
 	)
 	(junction
 		(at 82.55 77.47)
@@ -7257,6 +7498,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "febaca10-dce3-4000-9c08-bfe1dfc987a3")
+	)
+	(no_connect
+		(at 153.67 80.01)
+		(uuid "05196a63-b04b-4bd8-a942-faefdf269319")
 	)
 	(no_connect
 		(at 115.57 186.69)
@@ -7279,7 +7524,7 @@
 		(uuid "58107c43-6435-4fcb-a643-8d1e60219851")
 	)
 	(no_connect
-		(at 148.59 85.09)
+		(at 148.59 80.01)
 		(uuid "6db7c5ab-7c4e-4cf8-b5d6-cf96e1138384")
 	)
 	(no_connect
@@ -7297,6 +7542,10 @@
 	(no_connect
 		(at 140.97 184.15)
 		(uuid "b3ad0e6f-6274-439f-be7d-990fe48bee73")
+	)
+	(no_connect
+		(at 151.13 80.01)
+		(uuid "c3661026-4b9b-4559-bb4e-1bd6f7abf7fa")
 	)
 	(no_connect
 		(at 140.97 186.69)
@@ -7322,7 +7571,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 69.85) (xy 158.75 31.75)
+			(xy 162.56 69.85) (xy 162.56 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7392,7 +7641,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 69.85) (xy 158.75 69.85)
+			(xy 198.12 69.85) (xy 162.56 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7552,16 +7801,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 110.49) (xy 151.13 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16a51ac5-b398-43ec-8409-037312a1bf57")
-	)
-	(wire
-		(pts
 			(xy 111.76 43.18) (xy 109.22 43.18)
 		)
 		(stroke
@@ -7709,16 +7948,6 @@
 			(type default)
 		)
 		(uuid "2b790029-53e6-42b7-bdfe-4a448a7fca79")
-	)
-	(wire
-		(pts
-			(xy 134.62 95.25) (xy 134.62 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30b26153-15b5-4665-9b5f-5ae91a25b839")
 	)
 	(wire
 		(pts
@@ -7882,6 +8111,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 57.15) (xy 55.88 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d26c1aa-9467-418e-bbcc-00ba3a105006")
+	)
+	(wire
+		(pts
 			(xy 168.91 62.23) (xy 201.93 62.23)
 		)
 		(stroke
@@ -7962,16 +8201,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 83.82) (xy 151.13 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "416bf201-ab3f-4d3a-bac1-33b176ffa0d2")
-	)
-	(wire
-		(pts
 			(xy 172.72 43.18) (xy 172.72 36.83)
 		)
 		(stroke
@@ -8029,6 +8258,16 @@
 			(type default)
 		)
 		(uuid "475a5dce-5a95-4158-ba98-60e7f6603d1b")
+	)
+	(wire
+		(pts
+			(xy 44.45 60.96) (xy 55.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ac7865-7ffe-4f0d-9513-6194800550f1")
 	)
 	(wire
 		(pts
@@ -8112,16 +8351,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 60.96) (xy 52.07 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ef47503-5246-4618-ad2a-afbaaaf846c2")
-	)
-	(wire
-		(pts
 			(xy 214.63 90.17) (xy 223.52 90.17)
 		)
 		(stroke
@@ -8149,16 +8378,6 @@
 			(type default)
 		)
 		(uuid "537a04d2-2e27-4af3-b5f8-04b7c12d6d35")
-	)
-	(wire
-		(pts
-			(xy 132.08 111.76) (xy 134.62 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55ae3f7a-6209-4cf7-b4bb-6a3ff8297a46")
 	)
 	(wire
 		(pts
@@ -8292,16 +8511,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 31.75) (xy 173.99 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f1c59f6-d590-4bda-8dde-64b1f26d9e24")
-	)
-	(wire
-		(pts
 			(xy 86.36 57.15) (xy 86.36 55.88)
 		)
 		(stroke
@@ -8352,6 +8561,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 101.6) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c8c915-3a96-4147-93b7-4246b34f44d1")
+	)
+	(wire
+		(pts
 			(xy 48.26 167.64) (xy 48.26 163.195)
 		)
 		(stroke
@@ -8399,6 +8618,16 @@
 			(type default)
 		)
 		(uuid "6aaf46be-b0fa-402f-8d58-96ef7ff20876")
+	)
+	(wire
+		(pts
+			(xy 55.88 57.15) (xy 55.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd86189-11d3-4a38-9794-e8b6e89a8f01")
 	)
 	(wire
 		(pts
@@ -8592,7 +8821,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 116.84) (xy 69.85 116.84)
+			(xy 73.66 116.84) (xy 71.12 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8732,6 +8961,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 101.6) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b49e04b-5765-4fa0-aedb-8e622f3b6a8e")
+	)
+	(wire
+		(pts
 			(xy 223.52 92.71) (xy 218.44 92.71)
 		)
 		(stroke
@@ -8739,16 +8978,6 @@
 			(type default)
 		)
 		(uuid "9bbbe50c-0653-4664-92b1-ffaa8ebefd81")
-	)
-	(wire
-		(pts
-			(xy 134.62 110.49) (xy 134.62 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c399ffa-e06b-43b6-8a69-b4ca9383ee34")
 	)
 	(wire
 		(pts
@@ -8779,6 +9008,16 @@
 			(type default)
 		)
 		(uuid "a01cf86d-3e9b-45c6-8856-063a022a8336")
+	)
+	(wire
+		(pts
+			(xy 115.57 24.13) (xy 118.11 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02f4c29-d2e3-4dfc-a595-da8768820196")
 	)
 	(wire
 		(pts
@@ -8852,6 +9091,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 97.79) (xy 148.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c3a87a-8a1e-42cd-8429-c861fe5ade3b")
+	)
+	(wire
+		(pts
 			(xy 90.17 156.21) (xy 91.44 156.21)
 		)
 		(stroke
@@ -8859,6 +9108,16 @@
 			(type default)
 		)
 		(uuid "a965b7f5-78a2-4696-9e02-2fa190cf6ef8")
+	)
+	(wire
+		(pts
+			(xy 151.13 100.33) (xy 158.75 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aadf4174-56d8-4648-8476-245a89272a95")
 	)
 	(wire
 		(pts
@@ -8902,6 +9161,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 77.47) (xy 71.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff801d8-449f-4e39-9ac1-438d60a6ed56")
+	)
+	(wire
+		(pts
 			(xy 115.57 172.72) (xy 115.57 173.99)
 		)
 		(stroke
@@ -8909,6 +9178,16 @@
 			(type default)
 		)
 		(uuid "b0bc7e75-59e2-4211-a967-7ef1c605d990")
+	)
+	(wire
+		(pts
+			(xy 71.12 116.84) (xy 69.85 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2baee7d-915e-41f4-a97e-ec041cb9021e")
 	)
 	(wire
 		(pts
@@ -8952,6 +9231,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 57.15) (xy 44.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86c2297-635f-4a9c-b531-89800238d36a")
+	)
+	(wire
+		(pts
 			(xy 225.5851 34.29) (xy 225.5851 38.1)
 		)
 		(stroke
@@ -8969,6 +9258,26 @@
 			(type default)
 		)
 		(uuid "ba3382da-cf62-47a7-b554-611a88e0f9af")
+	)
+	(wire
+		(pts
+			(xy 151.13 97.79) (xy 151.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc68c075-263d-49b2-99a0-e4484db0b8cf")
+	)
+	(wire
+		(pts
+			(xy 151.13 121.92) (xy 153.67 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be990db5-61dc-4329-b139-8786dc97aac8")
 	)
 	(wire
 		(pts
@@ -9032,13 +9341,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 110.49) (xy 134.62 110.49)
+			(xy 153.67 121.92) (xy 153.67 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d19859b5-d3cf-45b4-aef7-94a22d2ac88f")
+		(uuid "d02cfb2f-acae-4c66-9145-a1e48eeaaa36")
 	)
 	(wire
 		(pts
@@ -9152,6 +9461,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 97.79) (xy 153.67 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23e7c9b-2dd8-4ee7-8157-76e0eddccfc8")
+	)
+	(wire
+		(pts
 			(xy 198.12 53.34) (xy 198.12 43.18)
 		)
 		(stroke
@@ -9159,16 +9478,6 @@
 			(type default)
 		)
 		(uuid "e452307c-bac1-40f4-bf8f-18a756c898ff")
-	)
-	(wire
-		(pts
-			(xy 66.04 77.47) (xy 73.66 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e48879a8-e14e-486d-96be-6de33d5b0aa7")
 	)
 	(wire
 		(pts
@@ -9302,7 +9611,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 60.96) (xy 26.67 60.96)
+			(xy 19.05 60.96) (xy 24.13 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9352,6 +9661,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 31.75) (xy 173.99 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65ecccd-baed-4722-9f71-82a403e9da4a")
+	)
+	(wire
+		(pts
 			(xy 230.6651 59.69) (xy 230.6651 58.42)
 		)
 		(stroke
@@ -9392,7 +9711,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 134.62 114.3)
+			(xy 132.08 111.76) (xy 132.08 114.3)
 		)
 		(stroke
 			(width 0)
@@ -9459,17 +9778,6 @@
 		(uuid "c6a31c5c-257b-4215-aee6-d87302361ef9")
 	)
 	(label "LB"
-		(at 52.07 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "001602e0-9af2-426a-a56e-0bbe0f46f034")
-	)
-	(label "LB"
 		(at 69.85 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9490,6 +9798,17 @@
 			(justify right bottom)
 		)
 		(uuid "84b9e397-0212-4433-8158-509466a9d53c")
+	)
+	(label "LB"
+		(at 55.88 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f086894-226a-443c-a662-84db5601081c")
 	)
 	(label "OC"
 		(at 214.63 90.17 180)
@@ -9536,7 +9855,7 @@
 		(uuid "e0c3d394-4fe3-4817-bac7-b8a388cc1666")
 	)
 	(label "LA"
-		(at 21.59 60.96 0)
+		(at 19.05 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10373,7 +10692,7 @@
 	)
 	(global_label "PC7"
 		(shape input)
-		(at 151.13 111.76 270)
+		(at 148.59 121.92 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10383,7 +10702,7 @@
 		)
 		(uuid "9db0d6b0-c203-412a-952b-d99a380461e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 118.4947 90)
+			(at 148.59 128.6547 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11812,74 +12131,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 30.48 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ca77112-9987-4cee-a0fe-a0751bf13d0f")
-		(property "Reference" "R12"
-			(at 30.48 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R2.2"
-			(at 30.48 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0402"
-			(at 30.48 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 30.48 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a801948c-cad4-477d-a7a1-a55e866ec26e")
-		)
-		(pin "2"
-			(uuid "0ea776c5-7636-47d2-870e-ccffc388ca35")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:FS8205A_C908265")
 		(at 182.88 55.88 0)
 		(unit 1)
@@ -13150,7 +13401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L1.0-W0.5-RD"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 229.87 100.33 0)
 			(effects
 				(font
@@ -13177,7 +13428,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2852592"
+		(property "LCSC Part" "C5879378"
 			(at 227.33 100.33 0)
 			(effects
 				(font
@@ -13543,6 +13794,97 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WS2813B-V5")
+		(at 151.13 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "486f9ec8-f502-424f-ba55-ced47e06cc65")
+		(property "Reference" "LED5"
+			(at 157.48 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WS2813B-V5"
+			(at 157.48 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_6P-L5.0-W5.0-TL"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2813B-V5_C965558.html"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965558"
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cd4893f7-fdcf-4ca3-910d-1b71eaf1e29b")
+		)
+		(pin "2"
+			(uuid "fd288caa-0f57-48c7-a3b5-00507a408495")
+		)
+		(pin "1"
+			(uuid "529a58bf-4272-4aca-83b2-4d3202717a70")
+		)
+		(pin "3"
+			(uuid "31251315-c138-45b8-953a-50b5c7b7acea")
+		)
+		(pin "6"
+			(uuid "7e0725eb-2e80-449d-98c6-f641a2e24be3")
+		)
+		(pin "5"
+			(uuid "2856234b-fd0d-4206-9a6b-95a95dd9621a")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -13991,8 +14333,85 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:RB521S30T1G")
+		(at 110.49 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5914e079-b2af-4a76-ac56-00eb53f9a34c")
+		(property "Reference" "D6"
+			(at 110.49 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB521S30T1G"
+			(at 110.49 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-523_L1.2-W0.8-LS1.6-RD"
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ON_RB521S30T1G_RB521S30T1G_C145179.html"
+			(at 110.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C145179"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87511e59-7667-4bfd-bcb5-fdc13fe5035f")
+		)
+		(pin "1"
+			(uuid "076a1db2-41f0-427a-ac4d-be09cf9f63da")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "VCC")
-		(at 151.13 83.82 0)
+		(at 144.78 101.6 270)
 		(mirror x)
 		(unit 0)
 		(exclude_from_sim no)
@@ -14001,7 +14420,7 @@
 		(dnp no)
 		(uuid "59de445a-bf27-4b34-af17-e357087cca4c")
 		(property "Reference" "#PWR06"
-			(at 151.13 83.82 0)
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14010,7 +14429,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 148.082 80.772 0)
+			(at 140.208 104.902 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -14020,7 +14439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 83.82 0)
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14029,7 +14448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 83.82 0)
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14038,7 +14457,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name 'VCC'"
-			(at 151.13 83.82 0)
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14194,92 +14613,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 77.47 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62d534d8-cddd-4fb3-8ab5-9fc7c894c825")
-		(property "Reference" "D5"
-			(at 77.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 77.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 77.47 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 77.47 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 77.47 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f6c77b3-09d5-47fa-93f5-56bf7336d38e")
-		)
-		(pin "2"
-			(uuid "8f2b815f-6c0c-40dd-8c40-b56692f36a31")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Pad")
 		(at 124.46 92.71 180)
 		(unit 1)
@@ -14418,42 +14751,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 46.99 60.96 90)
+		(lib_id "easyeda2kicad:RB521S30T1G")
+		(at 76.2 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a27417a-6228-4e3e-ba79-a15e07edd8e8")
-		(property "Reference" "C8"
-			(at 46.9963 54.61 90)
+		(uuid "6c39559a-832d-43f1-bf7a-865691975033")
+		(property "Reference" "D4"
+			(at 76.454 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3.2pF"
-			(at 46.9963 57.15 90)
+		(property "Value" "RB521S30T1G"
+			(at 76.708 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Downloads:CAPC0402X22N"
-			(at 46.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 60.96 0)
+		(property "Footprint" "easyeda2kicad:SOD-523_L1.2-W0.8-LS1.6-RD"
+			(at 76.2 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14461,8 +14784,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 46.99 60.96 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ON_RB521S30T1G_RB521S30T1G_C145179.html"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C145179"
+			(at 76.2 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14471,15 +14812,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ba9436ba-2fad-41bb-8922-5266e96cbd4c")
+			(uuid "52bcb267-7ea3-4b41-b3a1-89d1d9142b3d")
 		)
 		(pin "1"
-			(uuid "97ab9208-df98-48de-a51c-09b78640120d")
+			(uuid "029da5e8-d175-4875-9033-ad8624cc919e")
 		)
 		(instances
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "C8")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -14547,6 +14888,73 @@
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "#PWR018")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GND")
+		(at 153.67 124.46 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "735d6d2d-0629-4d28-a5b8-3ac75ee15104")
+		(property "Reference" "#PWR044"
+			(at 153.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 150.368 131.064 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 153.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc4c0ec7-d0c6-4065-a76b-9ddd9b4eb554")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "#PWR044")
+					(unit 0)
 				)
 			)
 		)
@@ -15036,6 +15444,83 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:V3R3C0201C0G500NAT")
+		(at 49.53 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7be89786-6985-428b-8134-29bf06a510e2")
+		(property "Reference" "C10"
+			(at 49.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3pF"
+			(at 49.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0201"
+			(at 49.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_VIIYONG-V3R3C0201C0G500NAT_C609972.html"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C609972"
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2388b91-c09a-42ec-9c77-db055ad64eec")
+		)
+		(pin "2"
+			(uuid "da33af46-b480-45f3-8652-aab9e44d2375")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 59.69 130.81 90)
 		(unit 1)
@@ -15320,90 +15805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:WS2812B-XF02_W")
-		(at 148.59 97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c497c4c-d04c-4a53-9002-8057ce9d6aff")
-		(property "Reference" "LED1"
-			(at 155.448 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WS2812B-XF02/W"
-			(at 155.194 97.536 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-TL"
-			(at 140.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C4154882"
-			(at 138.43 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "33814896-5c18-4126-af6f-cc240b74b279")
-		)
-		(pin "4"
-			(uuid "e1de1f25-390b-4057-b1bd-7783e69cfd4b")
-		)
-		(pin "2"
-			(uuid "bd2cdb8e-fd58-466d-90a4-44a60293e466")
-		)
-		(pin "1"
-			(uuid "697e277b-9f86-4e75-a4bd-b137a7fa42a9")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 45.72 105.41 180)
 		(unit 1)
@@ -15531,6 +15932,97 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WS2813B-V5")
+		(at 151.13 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93e8a89d-91b0-4b87-85b3-0a8f1b011dd4")
+		(property "Reference" "LED1"
+			(at 157.48 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WS2813B-V5"
+			(at 157.48 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_6P-L5.0-W5.0-TL"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2813B-V5_C965558.html"
+			(at 138.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965558"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "638c6e25-529d-4f17-af09-9a21c404114d")
+		)
+		(pin "2"
+			(uuid "f995369b-5fc4-4eb7-81b5-d7efff27c8bb")
+		)
+		(pin "1"
+			(uuid "d80c5c5f-ab1a-4610-bce2-94a66923f1ec")
+		)
+		(pin "3"
+			(uuid "a09237da-d4a7-4a03-91b7-c711b4b2e0e2")
+		)
+		(pin "6"
+			(uuid "7e8bc31b-d092-4744-8854-3986219fb24f")
+		)
+		(pin "5"
+			(uuid "11d6bf4f-c14c-433d-8a7d-d653609b0e8e")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -15805,92 +16297,6 @@
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "#PWR035")
 					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 66.04 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99c66ca0-db38-4fcf-a0dc-6df752b26d41")
-		(property "Reference" "D6"
-			(at 66.04 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 66.04 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 66.04 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 66.04 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 66.04 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 66.04 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "915a18f2-8cbe-4fac-aa42-e101c1a8f5de")
-		)
-		(pin "2"
-			(uuid "67e9f6ff-0149-479d-850f-24a4686422ae")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "D6")
-					(unit 1)
 				)
 			)
 		)
@@ -16476,6 +16882,83 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:RC0402FR-071R91L")
+		(at 29.21 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a372a767-1e94-4690-adb3-7e01b021e7ed")
+		(property "Reference" "R12"
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.91"
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 29.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0402FR-071R91L_C477600.html"
+			(at 29.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C477600"
+			(at 29.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d65cb8cb-3062-4f52-90d0-fde076d49671")
+		)
+		(pin "1"
+			(uuid "4813d6e1-2af9-48ec-a6aa-2ce0fa325abd")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GND")
 		(at 119.38 54.61 0)
 		(unit 0)
@@ -16686,6 +17169,82 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:RB521S30T1G")
+		(at 66.04 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac2f62c2-147e-43b0-bd5f-391a5aaee854")
+		(property "Reference" "D7"
+			(at 67.818 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB521S30T1G"
+			(at 67.564 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-523_L1.2-W0.8-LS1.6-RD"
+			(at 66.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ON_RB521S30T1G_RB521S30T1G_C145179.html"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C145179"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a54d7bbf-5689-4b31-a35e-9681089cb16a")
+		)
+		(pin "1"
+			(uuid "159703af-331a-41ad-a06f-0ea8f5427e9e")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SS14")
 		(at 252.73 133.35 0)
 		(unit 0)
@@ -16846,7 +17405,7 @@
 			)
 		)
 		(property "Value" "BatteryIndicator Green"
-			(at 169.926 100.584 90)
+			(at 171.45 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17664,7 +18223,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 110.49 24.13 90)
+		(at 105.41 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17673,7 +18232,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3f655ee-c718-48e4-8a4e-0e7a1f48fbc2")
 		(property "Reference" "#PWR034"
-			(at 114.3 24.13 0)
+			(at 109.22 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17682,7 +18241,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 106.68 24.1299 90)
+			(at 101.6 24.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17691,7 +18250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 24.13 0)
+			(at 105.41 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17700,7 +18259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 24.13 0)
+			(at 105.41 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17709,7 +18268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 110.49 24.13 0)
+			(at 105.41 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18219,7 +18778,7 @@
 	)
 	(symbol
 		(lib_id "GND")
-		(at 134.62 114.3 0)
+		(at 132.08 114.3 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18227,7 +18786,7 @@
 		(dnp no)
 		(uuid "e1dd975a-d5b7-4a1d-9d9c-e1a6b2c55cf2")
 		(property "Reference" "#PWR0113"
-			(at 134.62 114.3 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18236,7 +18795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 131.318 120.904 0)
+			(at 128.778 120.904 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -18246,7 +18805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 114.3 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18255,7 +18814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 114.3 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18264,7 +18823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name 'GND'"
-			(at 134.62 114.3 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18654,6 +19213,73 @@
 	)
 	(symbol
 		(lib_id "GND")
+		(at 158.75 100.33 90)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9a36641-d6ab-48d3-b9d7-54ce654f83e4")
+		(property "Reference" "#PWR045"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.354 103.632 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4e14974-5a6c-4c04-a1e8-b9d66cfdc5af")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "#PWR045")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GND")
 		(at 146.05 171.45 90)
 		(unit 0)
 		(exclude_from_sim no)
@@ -19011,92 +19637,6 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 114.3 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffb15b85-bf55-4895-8425-cb8fe981a7dc")
-		(property "Reference" "D4"
-			(at 114.3 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 114.3 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 114.3 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 114.3 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 114.3 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a007a4c-a32a-4ff0-a08a-2c3fa5bea653")
-		)
-		(pin "1"
-			(uuid "918c57cb-ae80-43b7-bab4-1170617d1881")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "D4")
 					(unit 1)
 				)
 			)

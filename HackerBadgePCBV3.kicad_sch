@@ -7358,12 +7358,6 @@
 		(uuid "51751179-4559-4766-9ee0-a5d5aa5a4b8c")
 	)
 	(junction
-		(at 115.57 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b39f119-5d2e-4877-b530-d7564cb2a4d0")
-	)
-	(junction
 		(at 252.73 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7745,13 +7739,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 40.64) (xy 115.57 40.64)
+			(xy 116.84 152.4) (xy 111.76 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0de65226-1fac-4956-93bb-de2a863ca6e7")
+		(uuid "0e143066-e0a5-40c1-9216-b3179d98dad2")
 	)
 	(wire
 		(pts
@@ -8165,16 +8159,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 40.64) (xy 115.57 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d0eef39-42a0-473b-bece-0f8537e6948f")
-	)
-	(wire
-		(pts
 			(xy 233.68 54.61) (xy 227.33 54.61)
 		)
 		(stroke
@@ -8555,7 +8539,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 40.64) (xy 118.11 40.64)
+			(xy 109.22 40.64) (xy 118.11 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8985,7 +8969,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 153.67) (xy 113.03 153.67)
+			(xy 129.54 153.67) (xy 115.57 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9545,7 +9529,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 153.67) (xy 113.03 156.21)
+			(xy 115.57 153.67) (xy 113.03 156.21)
 		)
 		(stroke
 			(width 0)
@@ -9803,6 +9787,25 @@
 		)
 		(uuid "ffc2ca6b-e4e3-4650-871e-977adfb42072")
 	)
+	(text_box "VDD is the raw voltage of the battery, normally 3 - 4.2v, it's unstable and may fluate.\nWhile VCC is the standardized 3.3v from a linear dropdown regulator."
+		(exclude_from_sim no)
+		(at 248.92 69.85 0)
+		(size 27.94 17.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "26c3afcb-b3af-43d6-abea-c1cd18a1f9ae")
+	)
 	(text "POWER HARVESTING"
 		(exclude_from_sim no)
 		(at 19.812 46.736 0)
@@ -9940,13 +9943,13 @@
 		(uuid "e3467d34-4f07-4fea-9c74-2d1ac9fafd30")
 	)
 	(label "LA"
-		(at 38.1 74.93 0)
+		(at 38.1 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ef2a434f-5752-4dc6-a3a1-efeee503a027")
 	)
@@ -10810,7 +10813,7 @@
 	)
 	(global_label "PC7"
 		(shape input)
-		(at 111.76 153.67 0)
+		(at 116.84 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10820,7 +10823,7 @@
 		)
 		(uuid "a4606f3f-362a-441e-a51a-38b1dddbca89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.4153 153.67 0)
+			(at 123.4953 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10920,7 +10923,7 @@
 	)
 	(global_label "NFC_SDA"
 		(shape input)
-		(at 127 153.67 0)
+		(at 129.54 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10930,7 +10933,7 @@
 		)
 		(uuid "af62fe55-8fbf-4b4b-a2ef-3a3ef99f8f2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.21 153.67 0)
+			(at 140.75 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19102,7 +19105,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6c39b0a-5932-4d8b-9ba3-ddc1cbdea5a9")
 		(property "Reference" "U6"
 			(at 100.33 148.5899 0)
@@ -19114,7 +19116,7 @@
 			)
 		)
 		(property "Value" "PM254-1-10-W-8.5"
-			(at 100.33 151.1299 0)
+			(at 94.742 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.8,
-          "height": 4.5,
-          "width": 2.5
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -430,7 +430,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HackerBadgePCBV2.kicad_pro",
+    "filename": "HackerBadgePCBV3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -467,7 +467,7 @@
       "netlist": "../../../../../Program Files/KiCad/8.0/",
       "plot": "newgerber",
       "pos_files": "./",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../../Downloads/HackerBadgePCBV3.dsn",
       "step": "HackerBadgePCBV2.step",
       "svg": "",
       "vrml": ""
@@ -543,6 +543,12 @@
           "label": "LCSC Part",
           "name": "LCSC Part",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -578,7 +584,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "meta": {

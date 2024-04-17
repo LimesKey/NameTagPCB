@@ -2,5 +2,5 @@
 
 |Apocalypse PCB Front|Apocalypse PCB Back|
 |:-:|:-:|
-|![Apocalypse PCB Front](./media/Apoc-PCB-Front.png) "Apocalypse PCB Front")| ![Apocalypse PCB Back](./media/Apoc-PCB-Back.png "Apocalypse PCB Back")
+|![Apocalypse PCB Front](./media/Apoc-PCB-Front.png) "Apocalypse PCB Front")| ![Apocalypse PCB Back](./media/Apoc-PCB-Back.png) "Apocalypse PCB Back"
 

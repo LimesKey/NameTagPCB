@@ -6,8 +6,8 @@
 	(paper "User" 292.1 205.105)
 	(title_block
 		(title "Apocalypse's Nametag PCB")
-		(date "2024-04-15")
-		(rev "3.3")
+		(date "2024-04-17")
+		(rev "3.4")
 		(company "Apocalypse - Hack Club")
 	)
 	(lib_symbols

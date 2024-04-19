@@ -3043,6 +3043,231 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:6N24000G33YC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X2"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "6N24000G33YC"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:OSC-SMD_4P-L7.0-W5.0-BL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_SHENZHEN-CRYSTAL-TECH-6N24000G33YC_C252386.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C252386"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "6N24000G33YC_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 -3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.02) (xy -1.27 1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 -1.78) (xy -0.76 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.02) (xy 1.27 1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.76 -1.78) (xy -0.76 1.78) (xy 0.76 1.78) (xy 0.76 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -2.54 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 2.54 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda2kicad:APHHS1005SURCK"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4195,218 +4420,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "easyeda2kicad:CN4024M00008001"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CRYSTAL"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CN4024M00008001"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:CRYSTAL-SMD_4P-L2.0-W1.6-BL_HUAXIN_CN4"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C7294672"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CN4024M00008001_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 -3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.51 1.78)
-					(end 0.51 -1.78)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.78) (xy -1.27 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.78) (xy 1.27 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7598,12 +7611,6 @@
 		(uuid "13af423f-5fd9-49b1-9712-4977feaddf3b")
 	)
 	(junction
-		(at 27.94 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a38f87d-22e6-4f07-ba97-5faa337cb184")
-	)
-	(junction
 		(at 162.56 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7664,6 +7671,12 @@
 		(uuid "5351df8b-5612-494b-8ee6-c828cc92f402")
 	)
 	(junction
+		(at 27.94 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b01bae3-fdf6-44c0-9acd-a1dba2e4423f")
+	)
+	(junction
 		(at 252.73 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7692,12 +7705,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73c8d8b6-36b6-4256-bae2-b2b34c5bf67b")
-	)
-	(junction
-		(at 49.53 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75121bc0-2dc9-46b2-a5a1-3b73ca5d3d84")
 	)
 	(junction
 		(at 86.36 45.72)
@@ -7730,7 +7737,7 @@
 		(uuid "7ea5abb9-b0b6-4f02-9d72-ab937315b849")
 	)
 	(junction
-		(at 46.99 184.15)
+		(at 55.88 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fe1a576-7e4c-4d24-afd4-03b96f721f75")
@@ -7784,12 +7791,6 @@
 		(uuid "acccb054-cea7-44cd-8987-b62f7d676f0c")
 	)
 	(junction
-		(at 44.45 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b04a4e7e-7205-4dc3-b881-6bf81f315e99")
-	)
-	(junction
 		(at 43.18 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7808,10 +7809,16 @@
 		(uuid "b9db9077-85a2-4c90-82e3-0b32d10e3ccf")
 	)
 	(junction
-		(at 46.99 172.72)
+		(at 55.88 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca51a8fc-92d6-4055-8265-9521309698d9")
+	)
+	(junction
+		(at 52.07 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc37b00d-4c90-4c0c-9b92-91fbb82fdb5a")
 	)
 	(junction
 		(at 105.41 83.82)
@@ -8057,7 +8064,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 179.07) (xy 46.99 184.15)
+			(xy 55.88 179.07) (xy 55.88 184.15)
 		)
 		(stroke
 			(width 0)
@@ -8177,6 +8184,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 177.8) (xy 52.07 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150f01c2-fe5a-411d-ba7a-67c93c58b5aa")
+	)
+	(wire
+		(pts
 			(xy 266.7 41.91) (xy 266.7 52.07)
 		)
 		(stroke
@@ -8237,7 +8254,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 172.72) (xy 46.99 172.72)
+			(xy 58.42 172.72) (xy 55.88 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8317,6 +8334,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 172.72) (xy 27.94 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237d5551-0d9b-479e-ada1-6529cbe943a6")
+	)
+	(wire
+		(pts
 			(xy 266.7 33.02) (xy 266.7 36.83)
 		)
 		(stroke
@@ -8377,13 +8404,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 172.72) (xy 44.45 172.72)
+			(xy 27.94 177.8) (xy 27.94 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dd02f84-ff14-4b39-9df9-785abad3357f")
+		(uuid "2b474716-f501-446b-a1e1-8fad7a380a99")
 	)
 	(wire
 		(pts
@@ -8427,7 +8454,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 172.72) (xy 46.99 173.99)
+			(xy 55.88 172.72) (xy 55.88 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8527,7 +8554,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 184.15) (xy 46.99 184.15)
+			(xy 52.07 184.15) (xy 55.88 184.15)
 		)
 		(stroke
 			(width 0)
@@ -8644,16 +8671,6 @@
 			(type default)
 		)
 		(uuid "47ac7865-7ffe-4f0d-9513-6194800550f1")
-	)
-	(wire
-		(pts
-			(xy 27.94 179.07) (xy 27.94 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47d143e5-656f-4d4a-9211-345696ba38ed")
 	)
 	(wire
 		(pts
@@ -8827,16 +8844,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 177.8) (xy 44.45 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "582f4a70-f16a-4352-823d-cdb19f3cb9e2")
-	)
-	(wire
-		(pts
 			(xy 172.72 43.18) (xy 198.12 43.18)
 		)
 		(stroke
@@ -8907,7 +8914,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 184.15) (xy 44.45 184.15)
+			(xy 27.94 184.15) (xy 52.07 184.15)
 		)
 		(stroke
 			(width 0)
@@ -8944,6 +8951,16 @@
 			(type default)
 		)
 		(uuid "5f4e7cd4-9ebd-49ce-885f-7eebbdf30a81")
+	)
+	(wire
+		(pts
+			(xy 52.07 172.72) (xy 55.88 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61bcfe08-705e-448e-b582-49082b010f80")
 	)
 	(wire
 		(pts
@@ -9107,6 +9124,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 177.8) (xy 35.56 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c43ac6-1841-4eb1-954f-7d3d52446ae0")
+	)
+	(wire
+		(pts
 			(xy 105.41 80.01) (xy 105.41 83.82)
 		)
 		(stroke
@@ -9167,7 +9194,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 184.15) (xy 49.53 184.15)
+			(xy 55.88 184.15) (xy 58.42 184.15)
 		)
 		(stroke
 			(width 0)
@@ -9224,16 +9251,6 @@
 			(type default)
 		)
 		(uuid "842966a6-012f-4773-8b06-954ec618b017")
-	)
-	(wire
-		(pts
-			(xy 27.94 172.72) (xy 27.94 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8628d997-d902-4b5c-948c-40f977693de3")
 	)
 	(wire
 		(pts
@@ -9647,16 +9664,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 177.8) (xy 27.94 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce79eea-8921-4267-9312-cfede75bc6cf")
-	)
-	(wire
-		(pts
 			(xy 151.13 121.92) (xy 153.67 121.92)
 		)
 		(stroke
@@ -9677,16 +9684,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 166.37) (xy 29.21 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c074be19-0ffc-4236-b00e-2efd766a154d")
-	)
-	(wire
-		(pts
 			(xy 237.49 85.09) (xy 237.49 87.63)
 		)
 		(stroke
@@ -9694,16 +9691,6 @@
 			(type default)
 		)
 		(uuid "c1a1e37d-27ea-4152-b3f8-208a6dc7d3e6")
-	)
-	(wire
-		(pts
-			(xy 49.53 184.15) (xy 50.8 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c24d2bf1-5c2a-4fe1-800f-253fe4e0cdee")
 	)
 	(wire
 		(pts
@@ -10409,7 +10396,7 @@
 	)
 	(global_label "PA2"
 		(shape input)
-		(at 49.53 172.72 0)
+		(at 58.42 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10419,7 +10406,7 @@
 		)
 		(uuid "22cd1707-54be-4297-b629-9125ff71f3a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0833 172.72 0)
+			(at 64.9733 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14340,88 +14327,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:CN4024M00008001")
-		(at 36.83 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d1f91e3-ab3d-4408-a6e4-df86c5ddc7a8")
-		(property "Reference" "CRYSTAL1"
-			(at 38.1 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CN4024M00008001"
-			(at 37.846 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CRYSTAL-SMD_4P-L2.0-W1.6-BL_HUAXIN_CN4"
-			(at 36.83 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C7294672"
-			(at 36.83 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6d1c3a0-4472-4d84-836e-b7be9282ff6f")
-		)
-		(pin "4"
-			(uuid "5cc4493d-cd59-4e6a-b70a-493fbda5f158")
-		)
-		(pin "3"
-			(uuid "d3fe01e7-1c58-412d-a437-f7a8044b01fe")
-		)
-		(pin "2"
-			(uuid "bb34e1f9-f272-4036-918b-8aaccccabbde")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "CRYSTAL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "GND")
 		(at 83.82 154.94 270)
 		(unit 0)
@@ -14962,6 +14867,74 @@
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "D4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VCC")
+		(at 35.56 172.72 270)
+		(mirror x)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d8c203b-7d6f-44ab-80cf-68d93547ca9f")
+		(property "Reference" "#PWR023"
+			(at 35.56 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 32.512 175.768 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'VCC'"
+			(at 35.56 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c2848b3-1130-4074-9fd7-27b6e93e6db5")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "#PWR023")
+					(unit 0)
 				)
 			)
 		)
@@ -15732,73 +15705,6 @@
 		)
 	)
 	(symbol
-		(lib_id "GND")
-		(at 29.21 166.37 180)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88545bda-48e3-49a7-a31c-1d702e80c248")
-		(property "Reference" "#PWR023"
-			(at 29.21 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 32.512 159.766 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 2.1717 2.1717)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name 'GND'"
-			(at 29.21 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63d3e856-bf40-4bc7-b9e7-64055217a963")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "#PWR023")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:0402WGJ0100TCE")
 		(at 110.49 109.22 0)
 		(unit 1)
@@ -16388,7 +16294,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 46.99 176.53 180)
+		(at 55.88 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16396,7 +16302,7 @@
 		(dnp no)
 		(uuid "9cb9e46a-c351-4b41-9295-aee959eed33d")
 		(property "Reference" "C6"
-			(at 49.53 176.53 90)
+			(at 58.42 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16404,7 +16310,7 @@
 			)
 		)
 		(property "Value" "20pF"
-			(at 43.7078 176.5237 90)
+			(at 52.5978 176.5237 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16413,7 +16319,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 46.99 176.53 0)
+			(at 55.88 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16422,7 +16328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 176.53 0)
+			(at 55.88 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16431,7 +16337,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 176.53 0)
+			(at 55.88 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16440,7 +16346,7 @@
 			)
 		)
 		(property "LCSC" "C882541"
-			(at 46.99 176.53 0)
+			(at 55.88 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19790,7 +19696,7 @@
 	)
 	(symbol
 		(lib_id "GND")
-		(at 49.53 184.15 90)
+		(at 58.42 184.15 90)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19798,7 +19704,7 @@
 		(dnp no)
 		(uuid "f5a15162-78f6-4f2d-b3df-5b89d4560069")
 		(property "Reference" "#PWR05"
-			(at 49.53 184.15 0)
+			(at 58.42 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19807,7 +19713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 56.134 187.452 0)
+			(at 65.024 187.452 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -19817,7 +19723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 184.15 0)
+			(at 58.42 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19826,7 +19732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 184.15 0)
+			(at 58.42 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19835,7 +19741,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name 'GND'"
-			(at 49.53 184.15 0)
+			(at 58.42 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20086,6 +19992,89 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:6N24000G33YC")
+		(at 43.18 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fef6d9dc-0240-4957-ae78-4d4759b70b10")
+		(property "Reference" "X2"
+			(at 43.18 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6N24000G33YC"
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:OSC-SMD_4P-L7.0-W5.0-BL"
+			(at 43.18 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_SHENZHEN-CRYSTAL-TECH-6N24000G33YC_C252386.html"
+			(at 43.18 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C252386"
+			(at 43.18 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7b74e433-21a4-4f4b-a623-0a702d02ea27")
+		)
+		(pin "1"
+			(uuid "2563ce8c-8908-40bf-92c1-a3a82460508f")
+		)
+		(pin "3"
+			(uuid "a57f4ef1-4f3c-42a5-a264-92c3bac802df")
+		)
+		(pin "2"
+			(uuid "1bf4687b-def5-4805-84bf-25326279332b")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "X2")
 					(unit 1)
 				)
 			)

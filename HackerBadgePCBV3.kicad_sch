@@ -213,282 +213,6 @@
 				)
 			)
 		)
-		(symbol "CL05B104KO5NNNC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C2"
-				(at 2.54 0.8763 0)
-				(effects
-					(font
-						(face "Arial")
-						(size 1.6891 1.6891)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "100nF"
-				(at 2.54 -1.3843 0)
-				(effects
-					(font
-						(face "Arial")
-						(size 1.6891 1.6891)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL05B104KO5NNNC_0_0"
-				(polyline
-					(pts
-						(xy -2.032 -0.508) (xy 2.032 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.508) (xy 2.032 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "CL05B104KO5NNNC_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C9"
-				(at 2.54 0.9017 0)
-				(effects
-					(font
-						(face "Arial")
-						(size 1.6891 1.6891)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "100nF"
-				(at 2.54 -1.4097 0)
-				(effects
-					(font
-						(face "Arial")
-						(size 1.6891 1.6891)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL05B104KO5NNNC_2_0_0"
-				(polyline
-					(pts
-						(xy -2.032 -0.508) (xy 2.032 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.508) (xy 2.032 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "CL10B224KA8NNNC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2725,6 +2449,149 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:0402N471J250CT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402N471J250CT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0402N471J250CT_C424858.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C424858"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402N471J250CT_0_1"
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda2kicad:0402WGJ0100TCE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2888,112 +2755,6 @@
 				)
 			)
 			(symbol "0402WGJ0151TCE_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "easyeda2kicad:0603WAJ0154T5E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0603WAJ0154T5E"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_150KR-154-5_C25580.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C25580"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0603WAJ0154T5E_0_1"
 				(rectangle
 					(start -2.54 1.02)
 					(end 2.54 -1.02)
@@ -5418,11 +5179,11 @@
 				)
 			)
 		)
-		(symbol "easyeda2kicad:MJC-0402H-R47-M"
+		(symbol "easyeda2kicad:MR04X1002FTL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "L"
+			(property "Reference" "R"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -5430,7 +5191,7 @@
 					)
 				)
 			)
-			(property "Value" "MJC-0402H-R47-M"
+			(property "Value" "MR04X1002FTL"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -5438,7 +5199,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:IND-SMD_L4.0-W4.0"
+			(property "Footprint" "easyeda2kicad:R0402"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -5447,7 +5208,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_Me-TECH-MJC-0402H-R47-M_C501772.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Huaxin-S-T-MR04X1002FTL_C327797.html"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -5465,7 +5226,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C501772"
+			(property "LCSC Part" "C327797"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -5474,58 +5235,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "MJC-0402H-R47-M_0_1"
-				(arc
-					(start -2.03 0.01)
-					(mid -3.055 1.013)
-					(end -4.06 -0.01)
+			(symbol "MR04X1002FTL_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.01)
-					(mid -1.025 1.013)
-					(end -2.03 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.03 0.01)
-					(mid 1.005 1.013)
-					(end 0 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 4.06 0.01)
-					(mid 3.035 1.013)
-					(end 2.03 -0.01)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin unspecified line
 					(at -5.08 0 0)
-					(length 1.016)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -5543,7 +5267,7 @@
 				)
 				(pin unspecified line
 					(at 5.08 0 180)
-					(length 1.016)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -6445,6 +6169,435 @@
 				)
 				(pin input line
 					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:SCL1608LR47KSP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SCL1608LR47KSP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:L0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Inductors-SMD_Sunltech-Tech-SCL1608LR47KSP_C411944.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C411944"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SCL1608LR47KSP_0_1"
+				(arc
+					(start -4.29 -0.02)
+					(mid -2.81 -1.01)
+					(end -2.27 -0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.13 -0.02)
+					(mid -0.66 -1.01)
+					(end -0.11 -0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.02 -0.02)
+					(mid 1.49 -1.01)
+					(end 2.04 -0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.21 -0.02)
+					(mid 3.68 -1.01)
+					(end 4.23 -0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 0.762)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 0.762)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:TCC0201X5R104K100ZT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TCC0201X5R104K100ZT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0201"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5142565"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCC0201X5R104K100ZT_0_1"
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:TCC0603X5R475K160CT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TCC0603X5R475K160CT"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0603"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_CCTC-TCC0603X5R475K160CT_C380325.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C380325"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCC0603X5R475K160CT_0_1"
+				(polyline
+					(pts
+						(xy -2.03 0.51) (xy 2.03 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.51) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.03 -0.51) (xy -2.03 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 5.08 270)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -7418,7 +7571,7 @@
 		(uuid "3fd26f8d-c2bc-4234-8002-511f834edd12")
 	)
 	(junction
-		(at 237.49 106.68)
+		(at 222.25 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "405e92b1-50d1-430c-a2c0-e573f5760204")
@@ -7446,6 +7599,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51751179-4559-4766-9ee0-a5d5aa5a4b8c")
+	)
+	(junction
+		(at 152.4 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "573bf5f3-1880-44ee-8d02-c470c25e3b69")
 	)
 	(junction
 		(at 27.94 177.8)
@@ -7622,6 +7781,12 @@
 		(uuid "d30f4d54-e242-4142-b6e2-98eaf3b82ce9")
 	)
 	(junction
+		(at 142.24 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6bebf11-e92d-438a-be77-1046b4120165")
+	)
+	(junction
 		(at 232.41 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7747,16 +7912,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 133.35) (xy 247.65 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ea2c1d-b41c-4ffb-ad70-926e0e451ea2")
-	)
-	(wire
-		(pts
 			(xy 162.56 69.85) (xy 162.56 31.75)
 		)
 		(stroke
@@ -7857,16 +8012,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 133.35) (xy 262.89 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "097a1654-e205-44e0-baec-51198c904be6")
-	)
-	(wire
-		(pts
 			(xy 166.37 53.34) (xy 166.37 60.96)
 		)
 		(stroke
@@ -7897,7 +8042,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 111.76) (xy 232.41 111.76)
+			(xy 210.82 113.03) (xy 217.17 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7994,6 +8139,16 @@
 			(type default)
 		)
 		(uuid "16f9fdbd-9375-40a5-992c-91881f77ba4b")
+	)
+	(wire
+		(pts
+			(xy 261.62 106.68) (xy 266.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cdfa0a-8da0-4420-8296-d60ba9829321")
 	)
 	(wire
 		(pts
@@ -8227,7 +8382,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 105.41) (xy 237.49 106.68)
+			(xy 222.25 106.68) (xy 222.25 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8244,6 +8399,16 @@
 			(type default)
 		)
 		(uuid "34535419-90bd-4c41-85cd-9a0568e1e1f0")
+	)
+	(wire
+		(pts
+			(xy 252.73 118.11) (xy 248.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34568638-fadd-4e35-b075-6f1452baebf2")
 	)
 	(wire
 		(pts
@@ -8267,13 +8432,23 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 116.84) (xy 237.49 119.38)
+			(xy 222.25 118.11) (xy 222.25 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3634f5af-e7ce-4389-8d19-5eb3e0502f8f")
+	)
+	(wire
+		(pts
+			(xy 251.46 106.68) (xy 248.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a232cfd-4e6f-404b-9019-9ab9a747e5db")
 	)
 	(wire
 		(pts
@@ -8337,16 +8512,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 96.52) (xy 223.52 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f2c57d2-87e4-4f1b-9345-6ea55895c0ec")
-	)
-	(wire
-		(pts
 			(xy 38.1 88.9) (xy 35.56 88.9)
 		)
 		(stroke
@@ -8407,7 +8572,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 102.87) (xy 223.52 102.87)
+			(xy 259.08 127) (xy 266.7 127)
 		)
 		(stroke
 			(width 0)
@@ -8467,16 +8632,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 90.17) (xy 223.52 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f7a0e0e-abda-43a2-8998-67bf988e8864")
-	)
-	(wire
-		(pts
 			(xy 91.44 129.54) (xy 92.71 129.54)
 		)
 		(stroke
@@ -8524,6 +8679,16 @@
 			(type default)
 		)
 		(uuid "53c1d488-a4e2-449c-89b3-dbba39e17f1b")
+	)
+	(wire
+		(pts
+			(xy 139.7 177.8) (xy 142.24 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5590f894-6b2a-4a0d-85b9-c2aad8dfc097")
 	)
 	(wire
 		(pts
@@ -8684,16 +8849,6 @@
 			(type default)
 		)
 		(uuid "61bcfe08-705e-448e-b582-49082b010f80")
-	)
-	(wire
-		(pts
-			(xy 72.39 55.88) (xy 72.39 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61c0ebe2-cf66-4d70-a15f-3b15076a7632")
 	)
 	(wire
 		(pts
@@ -9007,16 +9162,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 29.21) (xy 203.2 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f3e1dbe-ee0c-48bf-9aab-71520a29f081")
-	)
-	(wire
-		(pts
 			(xy 86.36 64.77) (xy 86.36 77.47)
 		)
 		(stroke
@@ -9067,16 +9212,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 36.83) (xy 203.2 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "985dca74-4090-4619-b8b3-54024b47a638")
-	)
-	(wire
-		(pts
 			(xy 161.29 31.75) (xy 162.56 31.75)
 		)
 		(stroke
@@ -9097,7 +9232,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 92.71) (xy 218.44 92.71)
+			(xy 266.7 111.76) (xy 254 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9317,7 +9452,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 107.95) (xy 237.49 106.68)
+			(xy 222.25 109.22) (xy 222.25 107.95)
 		)
 		(stroke
 			(width 0)
@@ -9377,6 +9512,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 118.11) (xy 262.89 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba341777-e27c-4ddd-90a5-2c764e361fc7")
+	)
+	(wire
+		(pts
 			(xy 200.66 38.1) (xy 201.93 38.1)
 		)
 		(stroke
@@ -9417,7 +9562,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 85.09) (xy 237.49 87.63)
+			(xy 222.25 86.36) (xy 222.25 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9447,6 +9592,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 184.15) (xy 152.4 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c8110f-cb14-4c45-b2f9-14931546167d")
+	)
+	(wire
+		(pts
 			(xy 130.81 43.18) (xy 119.38 43.18)
 		)
 		(stroke
@@ -9464,6 +9619,16 @@
 			(type default)
 		)
 		(uuid "cc8313f8-1296-4af0-b946-717633f13417")
+	)
+	(wire
+		(pts
+			(xy 154.94 177.8) (xy 152.4 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdd6ea1-994b-4ad4-880a-c1f93c4341ed")
 	)
 	(wire
 		(pts
@@ -9537,6 +9702,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 184.15) (xy 142.24 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8212e0a-e27c-4c99-b98f-278fc7ae5966")
+	)
+	(wire
+		(pts
 			(xy 246.38 33.02) (xy 252.73 33.02)
 		)
 		(stroke
@@ -9587,7 +9762,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 99.06) (xy 218.44 99.06)
+			(xy 266.7 123.19) (xy 254 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9845,7 +10020,7 @@
 		(uuid "49a9997c-3c34-4eae-8f22-a758e1503d70")
 	)
 	(label "OD"
-		(at 214.63 96.52 180)
+		(at 248.92 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9867,7 +10042,7 @@
 		(uuid "9f086894-226a-443c-a662-84db5601081c")
 	)
 	(label "OC"
-		(at 214.63 90.17 180)
+		(at 248.92 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9876,17 +10051,6 @@
 			(justify right)
 		)
 		(uuid "c280b661-6198-4873-90c4-7e4ae2b1b199")
-	)
-	(label "OC"
-		(at 242.57 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c386c595-c102-48d1-b57f-055f48902187")
 	)
 	(label "OD"
 		(at 161.29 31.75 180)
@@ -9967,7 +10131,7 @@
 	)
 	(global_label "INT2"
 		(shape input)
-		(at 218.44 99.06 180)
+		(at 254 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9977,7 +10141,7 @@
 		)
 		(uuid "12dbeac3-4f85-4fe6-82a5-69335d911aab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.3424 99.06 0)
+			(at 246.9024 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10011,7 +10175,7 @@
 	)
 	(global_label "INT1"
 		(shape input)
-		(at 218.44 92.71 180)
+		(at 254 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10021,7 +10185,7 @@
 		)
 		(uuid "155be533-89ce-4ee4-996a-d2f7e5617c63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.3424 92.71 0)
+			(at 246.9024 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10253,7 +10417,7 @@
 	)
 	(global_label "RGBLEDIN"
 		(shape input)
-		(at 215.9 102.87 180)
+		(at 259.08 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10263,7 +10427,7 @@
 		)
 		(uuid "3f0fa78d-4c81-4c24-9765-55ba319b2598")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.7224 102.87 0)
+			(at 246.9024 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,28 +10547,6 @@
 			)
 		)
 	)
-	(global_label "INT1"
-		(shape input)
-		(at 261.62 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "61bc64f2-a024-4d15-ac34-576f4d851cdc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.7176 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D+"
 		(shape input)
 		(at 60.96 134.62 0)
@@ -10429,7 +10571,7 @@
 	)
 	(global_label "PD0"
 		(shape input)
-		(at 223.52 90.17 0)
+		(at 266.7 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10439,7 +10581,7 @@
 		)
 		(uuid "68053ac0-ef09-425a-8ddc-58ed7abc214f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.2547 90.17 0)
+			(at 273.4347 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10495,7 +10637,7 @@
 	)
 	(global_label "PC0"
 		(shape input)
-		(at 223.52 96.52 0)
+		(at 266.7 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10505,7 +10647,7 @@
 		)
 		(uuid "718b3d88-f720-46ce-9180-15b2ee6c1b95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.2547 96.52 0)
+			(at 273.4347 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,7 +10725,7 @@
 	)
 	(global_label "PD1"
 		(shape input)
-		(at 223.52 92.71 0)
+		(at 266.7 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10593,7 +10735,7 @@
 		)
 		(uuid "7c74f710-e6d4-4e7e-a04b-0bf2f68d13c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.2547 92.71 0)
+			(at 273.4347 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10913,7 +11055,7 @@
 	)
 	(global_label "INT2"
 		(shape input)
-		(at 226.06 111.76 180)
+		(at 210.82 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10923,7 +11065,7 @@
 		)
 		(uuid "bd35b192-d0ab-4128-a6da-08283fd5f95c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.9624 111.76 0)
+			(at 203.7224 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10935,7 +11077,7 @@
 	)
 	(global_label "PC1"
 		(shape input)
-		(at 223.52 99.06 0)
+		(at 266.7 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10945,7 +11087,7 @@
 		)
 		(uuid "c298c2a3-d927-41eb-ac4b-c0e8dd4b54b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.2547 99.06 0)
+			(at 273.4347 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,7 +11209,7 @@
 	)
 	(global_label "PC2"
 		(shape input)
-		(at 223.52 102.87 0)
+		(at 266.7 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11077,7 +11219,7 @@
 		)
 		(uuid "d8b86af2-089c-4b3b-93ff-b64bb741593f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.2547 102.87 0)
+			(at 273.4347 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11846,6 +11988,85 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TCC0201X5R104K100ZT")
+		(at 72.39 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12d1f4e5-eefd-4c7b-a51f-ab8111213ad5")
+		(property "Reference" "U11"
+			(at 76.2 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 76.2 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0201"
+			(at 80.01 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5142565"
+			(at 82.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a26180f-0c67-4874-bca1-87cf48d80282")
+		)
+		(pin "1"
+			(uuid "a0815d48-8cec-42ee-a0dc-c16160305ee5")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:RTT0275R0FTH")
 		(at 110.49 90.17 0)
 		(unit 1)
@@ -11924,15 +12145,15 @@
 	)
 	(symbol
 		(lib_id "S8050")
-		(at 237.49 111.76 0)
-		(unit 0)
+		(at 222.25 113.03 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "194b3596-8b37-4318-8edf-3ec9a8231f82")
 		(property "Reference" "Q1"
-			(at 238.506 110.9345 0)
+			(at 223.266 112.2045 0)
 			(effects
 				(font
 					(face "Arial")
@@ -11942,7 +12163,7 @@
 			)
 		)
 		(property "Value" "S8050"
-			(at 238.506 113.1443 0)
+			(at 223.266 114.4143 0)
 			(effects
 				(font
 					(face "Arial")
@@ -11952,7 +12173,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 237.49 111.76 0)
+			(at 222.25 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11961,7 +12182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 111.76 0)
+			(at 222.25 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11970,7 +12191,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 111.76 0)
+			(at 222.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2846756"
+			(at 222.25 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11991,7 +12221,7 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "Q1")
-					(unit 0)
+					(unit 1)
 				)
 			)
 		)
@@ -12147,6 +12377,83 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SCL1608LR47KSP")
+		(at 100.33 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28398c6f-7ffb-4f8e-a1e0-7f5c1d02f63e")
+		(property "Reference" "L4"
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCL1608LR47KSP"
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C411944"
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "475e5d9c-10a9-413b-bccf-b77ae269470f")
+		)
+		(pin "2"
+			(uuid "1505ac6e-6b98-43ce-8316-c78d119be836")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -12502,85 +12809,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:0603WAJ0154T5E")
-		(at 63.5 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31f6e50f-54c4-462b-9505-f2641f5df6a9")
-		(property "Reference" "R2"
-			(at 66.04 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 66.04 48.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 71.12 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_150KR-154-5_C25580.html"
-			(at 73.66 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25580"
-			(at 76.2 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e77e3d86-84ac-4dd2-98be-1e8eec7f1554")
-		)
-		(pin "2"
-			(uuid "b97e9965-6c8d-42fa-8652-539005328382")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:MC-313D")
 		(at 43.18 127 0)
 		(unit 1)
@@ -12732,6 +12960,85 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "USB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TCC0201X5R104K100ZT")
+		(at 203.2 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38cc6f9c-a815-4727-8f5f-94e912c67932")
+		(property "Reference" "U12"
+			(at 207.01 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 207.01 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0201"
+			(at 210.82 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5142565"
+			(at 213.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "baa09c1d-abe4-4807-b80f-8b6bee66bec9")
+		)
+		(pin "1"
+			(uuid "381b78cc-bb48-48a5-bc0e-6e4c7155fb28")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -13108,16 +13415,15 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:APHHS1005SURCK")
-		(at 237.49 100.33 270)
+		(at 222.25 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "408c411b-5f4f-4607-864f-e50702d02cdd")
 		(property "Reference" "U5"
-			(at 241.3 100.3299 90)
+			(at 226.06 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13126,7 +13432,7 @@
 			)
 		)
 		(property "Value" "BatteryIndicator Red"
-			(at 241.3 102.8699 90)
+			(at 227.33 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13135,7 +13441,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 229.87 100.33 0)
+			(at 214.63 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13144,7 +13450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 100.33 0)
+			(at 222.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13153,7 +13459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 100.33 0)
+			(at 222.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13162,7 +13468,7 @@
 			)
 		)
 		(property "LCSC Part" "C5879378"
-			(at 227.33 100.33 0)
+			(at 212.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13427,14 +13733,14 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 24.13 131.826 90)
+			(at 19.558 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0603"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 24.13 133.858 90)
 			(effects
 				(font
@@ -13454,6 +13760,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 24.13 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C103086"
+			(at 24.13 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13803,36 +14118,36 @@
 		)
 	)
 	(symbol
-		(lib_id "CL05B104KO5NNNC")
-		(at 72.39 50.8 0)
+		(lib_id "VCC")
+		(at 139.7 177.8 270)
+		(mirror x)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4d895f0b-3687-419e-851a-966a09336089")
-		(property "Reference" "C2"
-			(at 74.93 49.9237 0)
+		(uuid "4ca929b8-9c51-494e-859c-1f18d98092b3")
+		(property "Reference" "#PWR016"
+			(at 139.7 177.8 0)
 			(effects
 				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 136.144 181.356 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
 				)
 				(justify left top)
 			)
 		)
-		(property "Value" "100nF"
-			(at 74.93 52.1843 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0402"
-			(at 72.39 50.8 0)
+		(property "Footprint" ""
+			(at 139.7 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13841,7 +14156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 50.8 0)
+			(at 139.7 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13849,8 +14164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 72.39 50.8 0)
+		(property "Description" "Power symbol creates a global label with name 'VCC'"
+			(at 139.7 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13859,15 +14174,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ceb8a03-a71f-4b11-ad18-8498ded5bc8c")
-		)
-		(pin "2"
-			(uuid "8912a323-fc8d-4d43-be57-1febfab64cf0")
+			(uuid "9c548dff-309a-4c30-b732-9e69ebd2c85f")
 		)
 		(instances
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "C2")
+					(reference "#PWR016")
 					(unit 0)
 				)
 			)
@@ -14003,6 +14315,83 @@
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "#PWR022")
 					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SCL1608LR47KSP")
+		(at 232.41 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51462fbc-c18c-4d6b-ab07-63aa19c73eb9")
+		(property "Reference" "L3"
+			(at 232.41 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCL1608LR47KSP 470nH"
+			(at 232.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 232.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C411944"
+			(at 232.41 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96c4217a-61b5-46e5-b981-fc3f9e002aff")
+		)
+		(pin "2"
+			(uuid "1738ab53-cb30-4f2c-970d-6d8e6640fc44")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "L3")
+					(unit 1)
 				)
 			)
 		)
@@ -14646,6 +15035,85 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:MR04X1002FTL")
+		(at 63.5 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d75914f-cb84-426b-930a-ac1922d90a91")
+		(property "Reference" "R9"
+			(at 66.04 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 66.04 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 71.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Huaxin-S-T-MR04X1002FTL_C327797.html"
+			(at 73.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C327797"
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91a06535-f5c3-40ba-8775-67e8c0fc4913")
+		)
+		(pin "2"
+			(uuid "cda12593-36cd-48bf-b1ab-323fde3f9e78")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "VCC")
 		(at 35.56 172.72 270)
 		(mirror x)
@@ -14708,6 +15176,150 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "#PWR023")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TCC0603X5R475K160CT")
+		(at 147.32 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ec37643-be92-47a0-aea5-2c550fd8e443")
+		(property "Reference" "C2"
+			(at 147.32 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 147.32 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 160.02 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_CCTC-TCC0603X5R475K160CT_C380325.html"
+			(at 162.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C380325"
+			(at 165.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5027def2-5e5b-4ed5-9712-978782ef9b2d")
+		)
+		(pin "1"
+			(uuid "e593802d-146d-462c-8c48-cbb2dd6aa0a4")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GND")
+		(at 154.94 177.8 90)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "714478aa-9d09-40df-87f2-dae4203c8a24")
+		(property "Reference" "#PWR014"
+			(at 154.94 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.544 181.102 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 154.94 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36b7d357-fd62-40fb-a99b-c28ecb20fb36")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "#PWR014")
 					(unit 0)
 				)
 			)
@@ -14848,77 +15460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CL05B104KO5NNNC_2")
-		(at 203.2 33.02 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76722a73-1726-452a-ad13-d3c98566b28a")
-		(property "Reference" "C9"
-			(at 205.74 32.1183 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "100nF"
-			(at 205.74 34.4297 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0402"
-			(at 203.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5c84253-784b-4ee0-8cb2-acbcb82bda8b")
-		)
-		(pin "2"
-			(uuid "386170b9-ed86-4cc3-92f1-007813522f6d")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "C9")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MLZ1608A1R0WT000")
 		(at 33.02 62.23 0)
 		(unit 1)
@@ -14991,7 +15532,7 @@
 	)
 	(symbol
 		(lib_id "GND")
-		(at 237.49 119.38 0)
+		(at 222.25 120.65 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14999,7 +15540,7 @@
 		(dnp no)
 		(uuid "76fa11f8-47bd-4a48-b2a0-c3f1db6f8fd6")
 		(property "Reference" "#PWR0111"
-			(at 237.49 119.38 0)
+			(at 222.25 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15008,7 +15549,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.188 125.984 0)
+			(at 218.948 127.254 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -15018,7 +15559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 119.38 0)
+			(at 222.25 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15027,7 +15568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 119.38 0)
+			(at 222.25 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15036,7 +15577,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name 'GND'"
-			(at 237.49 119.38 0)
+			(at 222.25 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15193,7 +15734,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 237.49 91.44 0)
+		(at 222.25 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15202,7 +15743,7 @@
 		(fields_autoplaced yes)
 		(uuid "795a8091-989d-45ef-9999-957810ba88a6")
 		(property "Reference" "R13"
-			(at 240.03 90.1699 0)
+			(at 224.79 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15211,7 +15752,7 @@
 			)
 		)
 		(property "Value" "R470"
-			(at 240.03 92.7099 0)
+			(at 224.79 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15220,7 +15761,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 235.712 91.44 90)
+			(at 220.472 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15229,7 +15770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 91.44 0)
+			(at 222.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15238,7 +15779,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 237.49 91.44 0)
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25167"
+			(at 222.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15518,6 +16068,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C919459"
 			(at 99.06 43.18 0)
 			(effects
 				(font
@@ -15937,7 +16496,7 @@
 	(symbol
 		(lib_id "0402WGF1001TCE")
 		(at 166.37 43.18 0)
-		(unit 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15990,6 +16549,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2906899"
+			(at 166.37 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3439f723-5592-4f0d-8bce-b0392f606513")
 		)
@@ -16000,14 +16568,14 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "R7")
-					(unit 0)
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "VCC")
-		(at 237.49 85.09 0)
+		(at 222.25 86.36 0)
 		(mirror x)
 		(unit 0)
 		(exclude_from_sim no)
@@ -16016,7 +16584,7 @@
 		(dnp no)
 		(uuid "957c1ee9-d99a-4d8f-baca-f66dd844eca7")
 		(property "Reference" "#PWR0108"
-			(at 237.49 85.09 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16025,7 +16593,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 233.934 81.534 0)
+			(at 218.694 82.804 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -16035,7 +16603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 85.09 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16044,7 +16612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 85.09 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16053,7 +16621,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name 'VCC'"
-			(at 237.49 85.09 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16075,7 +16643,7 @@
 	)
 	(symbol
 		(lib_id "GND")
-		(at 72.39 55.88 0)
+		(at 72.39 57.15 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16083,7 +16651,7 @@
 		(dnp no)
 		(uuid "97b6df53-0ffe-4080-af50-78b23a4a4119")
 		(property "Reference" "#PWR0114"
-			(at 72.39 55.88 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16092,7 +16660,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.088 62.484 0)
+			(at 69.088 63.754 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -16102,7 +16670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 55.88 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16111,7 +16679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 55.88 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16120,7 +16688,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name 'GND'"
-			(at 72.39 55.88 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16261,6 +16829,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5186895"
+			(at 257.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70e74bf8-566f-4cf3-b6c3-c366c5d9012d")
 		)
@@ -16330,7 +16907,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C882541"
+		(property "LCSC" "C376774"
 			(at 27.94 181.61 0)
 			(effects
 				(font
@@ -16473,7 +17050,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C882541"
+		(property "LCSC" "C376774"
 			(at 55.88 176.53 0)
 			(effects
 				(font
@@ -16567,7 +17144,7 @@
 	(symbol
 		(lib_id "CL10B224KA8NNNC")
 		(at 55.88 93.98 0)
-		(unit 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16593,7 +17170,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 55.88 93.98 0)
 			(effects
 				(font
@@ -16620,6 +17197,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C7503518"
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c62ec10-80e4-4e7f-8ca2-2cbbf9c6d23a")
 		)
@@ -16630,7 +17216,7 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "C1")
-					(unit 0)
+					(unit 1)
 				)
 			)
 		)
@@ -16772,7 +17358,7 @@
 	(symbol
 		(lib_id "DW01A_C351410")
 		(at 184.15 34.29 0)
-		(unit 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16798,7 +17384,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 184.15 34.29 0)
 			(effects
 				(font
@@ -16817,6 +17403,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 184.15 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C18164398"
 			(at 184.15 34.29 0)
 			(effects
 				(font
@@ -16847,7 +17442,7 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "U3")
-					(unit 0)
+					(unit 1)
 				)
 			)
 		)
@@ -17220,15 +17815,15 @@
 	)
 	(symbol
 		(lib_id "SS14")
-		(at 252.73 133.35 0)
-		(unit 0)
+		(at 257.81 118.11 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "af00ffe4-f7c0-4c0b-912f-a423c05131e0")
-		(property "Reference" "D1"
-			(at 251.2314 126.5809 0)
+		(uuid "aec39c29-8dfb-466c-915a-24a2864220a8")
+		(property "Reference" "D8"
+			(at 252.222 117.094 0)
 			(effects
 				(font
 					(face "Arial")
@@ -17238,7 +17833,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 251.2314 128.8669 0)
+			(at 262.128 117.348 0)
 			(effects
 				(font
 					(face "Arial")
@@ -17248,7 +17843,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOD-123_L2.8-W1.8-LS3.7-RD"
-			(at 252.73 133.35 0)
+			(at 257.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17257,7 +17852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 133.35 0)
+			(at 257.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17266,7 +17861,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 133.35 0)
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2909920"
+			(at 257.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17275,16 +17879,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "36448e53-a076-434c-ab4d-378659761564")
+			(uuid "9034fa44-e6c0-4967-b1cf-323105d080b8")
 		)
 		(pin "2"
-			(uuid "4bca0e83-8940-4b42-a985-5176adbd4dbf")
+			(uuid "c726256f-9d0c-4737-869b-d41dcdd640f5")
 		)
 		(instances
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "D1")
-					(unit 0)
+					(reference "D8")
+					(unit 1)
 				)
 			)
 		)
@@ -17580,86 +18184,9 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:MJC-0402H-R47-M")
-		(at 232.41 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5fb1367-096e-4091-bbc1-0e461c208b2e")
-		(property "Reference" "L2"
-			(at 232.41 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MJC-0402H-R47-M"
-			(at 232.41 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:IND-SMD_L4.0-W4.0"
-			(at 232.41 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_Me-TECH-MJC-0402H-R47-M_C501772.html"
-			(at 232.41 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C501772"
-			(at 232.41 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1c61bb2-7e65-4029-ae23-d0b5498fe51a")
-		)
-		(pin "2"
-			(uuid "efc0f5b9-cb17-4d5d-b81b-d829fcccee43")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0402WGF1000TCE")
 		(at 208.28 27.94 0)
-		(unit 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -17712,6 +18239,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2906884"
+			(at 208.28 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6043d616-b663-4620-acb2-e4aeae945529")
 		)
@@ -17722,7 +18258,7 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "R4")
-					(unit 0)
+					(unit 1)
 				)
 			)
 		)
@@ -17737,7 +18273,7 @@
 		(dnp no)
 		(uuid "c0c2172a-5083-47ed-bf23-d1713dea6f18")
 		(property "Reference" "R5"
-			(at 40.894 189.484 90)
+			(at 40.64 191.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17772,6 +18308,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 40.64 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2929900"
+			(at 40.64 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17840,6 +18385,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C100656"
+			(at 82.55 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18067,7 +18621,7 @@
 	(symbol
 		(lib_id "S8050")
 		(at 195.58 113.03 0)
-		(unit 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18120,6 +18674,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2846756"
+			(at 195.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a89b6fe7-6510-4e4d-85ba-27dfa5fee0b2")
 		)
@@ -18133,7 +18696,7 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "Q2")
-					(unit 0)
+					(unit 1)
 				)
 			)
 		)
@@ -18201,6 +18764,82 @@
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "#PWR048")
 					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d84ce048-65a9-4e58-8e5a-67a4d7a8a357")
+		(property "Reference" "R2"
+			(at 64.77 134.366 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 60.198 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 64.77 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C103086"
+			(at 64.77 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a505ef33-25fd-45ba-acf8-d823961e9ecd")
+		)
+		(pin "1"
+			(uuid "b7a4d79b-2b2b-494d-8bc9-807d510eae6c")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "R2")
+					(unit 1)
 				)
 			)
 		)
@@ -18393,6 +19032,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2909366"
+			(at 195.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7c522146-f414-4124-9e63-8e8a2547dbf2")
 		)
@@ -18403,6 +19051,86 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SS14")
+		(at 256.54 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfc9fad6-dabd-40a7-b1af-544ea900efd7")
+		(property "Reference" "D7"
+			(at 250.952 105.664 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "SS14"
+			(at 259.588 105.664 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-123_L2.8-W1.8-LS3.7-RD"
+			(at 256.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2909920"
+			(at 256.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3906d483-eac9-4985-980c-0342bb988aac")
+		)
+		(pin "2"
+			(uuid "3424c851-520e-452d-a6ba-5c82b652a29f")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -18501,7 +19229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 262.89 52.578 90)
 			(effects
 				(font
@@ -18521,6 +19249,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2906885"
+			(at 262.89 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18863,7 +19600,7 @@
 		(at 106.68 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -19112,6 +19849,83 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:0402N471J250CT")
+		(at 147.32 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb8296f1-5427-4d41-be65-61b0d96d1e97")
+		(property "Reference" "C7"
+			(at 147.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 147.32 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 147.32 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0402N471J250CT_C424858.html"
+			(at 147.32 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C424858"
+			(at 147.32 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1397673-2b07-4ba2-9d6e-0971b3b9b0d2")
+		)
+		(pin "1"
+			(uuid "7ec3f6bf-a7dd-4f32-a99a-8f34caebd811")
+		)
+		(instances
+			(project "HackerBadgePCBV3"
+				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GND")
 		(at 124.46 168.91 90)
 		(unit 0)
@@ -19188,7 +20002,7 @@
 		(dnp no)
 		(uuid "eda614dd-f036-4415-b202-c52f4089a563")
 		(property "Reference" "R16"
-			(at 252.984 46.228 90)
+			(at 254.508 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19197,7 +20011,7 @@
 			)
 		)
 		(property "Value" "45.3k"
-			(at 252.222 44.196 90)
+			(at 253.746 44.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19251,150 +20065,6 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 64.77 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f14ae498-5cee-4169-b772-c4b4db3807c3")
-		(property "Reference" "R8"
-			(at 64.77 134.366 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 64.77 131.826 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 64.77 133.858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 64.77 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a34d1ddf-1eff-4190-841b-1a6c4f9cac28")
-		)
-		(pin "1"
-			(uuid "b45541b0-0411-4b55-97cb-49198d8c895e")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:MJC-0402H-R47-M")
-		(at 100.33 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f41e2b68-f735-4020-9273-d10d151d4605")
-		(property "Reference" "L3"
-			(at 100.33 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MJC-0402H-R47-M"
-			(at 100.33 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:IND-SMD_L4.0-W4.0"
-			(at 100.33 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_Me-TECH-MJC-0402H-R47-M_C501772.html"
-			(at 100.33 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C501772"
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "760e894b-9643-4bda-a5ea-de790fdf572c")
-		)
-		(pin "2"
-			(uuid "7849321d-64f0-4863-8620-82232ccd75a9")
-		)
-		(instances
-			(project "HackerBadgePCBV3"
-				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
-					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -19537,7 +20207,7 @@
 	(symbol
 		(lib_id "NT3H2111W0FHKH")
 		(at 55.88 78.74 0)
-		(unit 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19590,6 +20260,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C710403"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "7afe2b23-357c-4187-89bc-f8f90c610b5a")
 		)
@@ -19621,7 +20300,7 @@
 			(project "HackerBadgePCBV3"
 				(path "/9d05d08a-6d4a-4426-b673-30f2051cc825"
 					(reference "U1")
-					(unit 0)
+					(unit 1)
 				)
 			)
 		)

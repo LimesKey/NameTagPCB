@@ -1,20 +1,29 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 38,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
       "Default"
     ],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "",
+      "GND",
+      "Net-(D6-A)",
+      "Net-(D2-A)",
+      "Net-(D1-A)",
+      "Net-(D3-A)",
+      "Net-(D4-A)",
+      "Net-(D5-A)"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.6,
+      "images": 0.6200000047683716,
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 0.6399999856948853
     },
     "selection_filter": {
       "dimensions": true,
@@ -66,8 +75,8 @@
       39,
       40
     ],
-    "visible_layers": "fffff9f_fffffffe",
-    "zone_display_mode": 0
+    "visible_layers": "fffff5d_fffffffe",
+    "zone_display_mode": 1
   },
   "git": {
     "repo_password": "",

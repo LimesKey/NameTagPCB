@@ -11702,7 +11702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C1206"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.36 175.26 0)
 			(effects
 				(font
@@ -11729,7 +11729,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C6119960"
+		(property "LCSC Part" "C3835503"
 			(at 88.9 175.26 0)
 			(effects
 				(font
@@ -17315,7 +17315,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C376774"
+		(property "LCSC" "C880615"
 			(at 27.94 181.61 0)
 			(effects
 				(font
@@ -17458,7 +17458,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C376774"
+		(property "LCSC" "C880615"
 			(at 55.88 176.53 0)
 			(effects
 				(font

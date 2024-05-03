@@ -5,6 +5,321 @@
 	(uuid "e76b9378-49c4-407d-9c14-2fb806106662")
 	(paper "User" 880.11 345.592)
 	(lib_symbols
+		(symbol "easyeda2kicad:TF-CARDH1.8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TF"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TF-CARD H1.8"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:TF-SMD_TF-CARD-H1.8"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C7529389"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TF-CARDH1.8_0_1"
+				(rectangle
+					(start -12.7 15.24)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -11.43 13.97)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 11.43 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "CD/DAT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "lul-eagle-import:+3V3"
 			(power)
 			(exclude_from_sim no)
@@ -7156,6 +7471,10 @@
 		(color 0 0 0 0)
 		(uuid "ffa9442f-2327-423d-a781-b278e3c026d0")
 	)
+	(no_connect
+		(at 124.46 220.98)
+		(uuid "593c3b88-e8ac-459e-abf0-4c125991aedb")
+	)
 	(wire
 		(pts
 			(xy 411.48 68.58) (xy 424.18 68.58)
@@ -7205,6 +7524,16 @@
 			(type solid)
 		)
 		(uuid "0322e2aa-da90-4dc0-973b-94bbbf230745")
+	)
+	(wire
+		(pts
+			(xy 180.34 170.18) (xy 190.5 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03288fd8-c3cd-4d56-82fc-4e73bce71d25")
 	)
 	(wire
 		(pts
@@ -7718,6 +8047,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 220.98) (xy 212.09 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5d27a8-0038-455d-a0ff-5fdb0ac9997b")
+	)
+	(wire
+		(pts
 			(xy 561.34 325.12) (xy 561.34 317.5)
 		)
 		(stroke
@@ -7805,6 +8144,16 @@
 			(type solid)
 		)
 		(uuid "22cbf7ad-2ab6-406b-9160-ca8a512eb03b")
+	)
+	(wire
+		(pts
+			(xy 132.08 170.18) (xy 142.24 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2324dc20-643e-4527-a1f1-ba72bad33a71")
 	)
 	(wire
 		(pts
@@ -8708,6 +9057,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 91.44) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff7118d-1b85-46b8-a64f-4739b655c1b9")
+	)
+	(wire
+		(pts
 			(xy 45.72 71.12) (xy 58.42 71.12)
 		)
 		(stroke
@@ -9538,6 +9897,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 91.44) (xy 190.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f48569-3074-4a97-b24d-2cf4e17bf8a5")
+	)
+	(wire
+		(pts
 			(xy 462.28 149.86) (xy 462.28 162.56)
 		)
 		(stroke
@@ -9905,6 +10274,16 @@
 			(type solid)
 		)
 		(uuid "cfa2f3b1-f628-49fd-88ae-bc0938e49409")
+	)
+	(wire
+		(pts
+			(xy 223.52 91.44) (xy 233.68 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe7a80d-e130-4b99-be87-679c080cae10")
 	)
 	(wire
 		(pts
@@ -10365,6 +10744,16 @@
 			(type solid)
 		)
 		(uuid "fccdab88-8f36-4d2d-b4ca-d4c09ce2bd20")
+	)
+	(wire
+		(pts
+			(xy 223.52 170.18) (xy 233.68 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf0f123-7183-4050-8a7f-e4064161cde0")
 	)
 	(wire
 		(pts
@@ -11250,6 +11639,116 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:TF-CARDH1.8")
+		(at 608.33 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0753e50f-10ee-4b48-b912-3b3842d050cc")
+		(property "Reference" "TF1"
+			(at 607.06 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TF-CARD H1.8"
+			(at 607.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TF-SMD_TF-CARD-H1.8"
+			(at 608.33 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 608.33 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 608.33 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7529389"
+			(at 608.33 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "df7bad75-cd0f-4d86-8e4a-ad9b8c34532a")
+		)
+		(pin "2"
+			(uuid "ed712fd6-930d-42f1-93ff-7a16c459ec78")
+		)
+		(pin "1"
+			(uuid "aa283f80-cc19-47ac-9380-1421fdd6cc35")
+		)
+		(pin "12"
+			(uuid "e1762c08-c726-4f3c-94bf-4630aeccc36a")
+		)
+		(pin "5"
+			(uuid "d36031d0-5b2e-4edc-99b3-535e08586880")
+		)
+		(pin "11"
+			(uuid "b532051b-8461-48ba-b3d1-a4df2867fc04")
+		)
+		(pin "3"
+			(uuid "818fcd0d-290d-4e53-84c7-2125350c2db6")
+		)
+		(pin "13"
+			(uuid "72188bd0-a5b7-4390-8fcf-51b272e1db2f")
+		)
+		(pin "6"
+			(uuid "40078cb0-380b-42d6-8ca9-7b39f9bd3b75")
+		)
+		(pin "9"
+			(uuid "8631c83f-f507-4eb7-b0fc-5c6c794325df")
+		)
+		(pin "4"
+			(uuid "f4186a8c-2f6e-466d-9118-60cb7c9d5dfc")
+		)
+		(pin "7"
+			(uuid "33fc2622-c054-4734-a2d8-53d734e79e62")
+		)
+		(pin "8"
+			(uuid "ba941ea7-6570-4b96-90ef-7c31879903e4")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "TF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lul-eagle-import:supply1_GND")
 		(at 185.42 119.38 0)
 		(unit 1)
@@ -11651,81 +12150,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 185.42 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fe3c379-4ca4-45bc-8937-0f4fadc2701c")
-		(property "Reference" "LED5"
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "DOUT"
-			(uuid "01ba41eb-0473-42d1-b34f-f01486285960")
-		)
-		(pin "VDD"
-			(uuid "f24cdb99-2adc-4d33-8f92-e86b68da2e63")
-		)
-		(pin "DIN"
-			(uuid "41988e7e-8472-498c-b871-d4f00915ab92")
-		)
-		(pin "GND"
-			(uuid "cabe38d8-a25c-4fc1-bc95-1a75a73eb254")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lul-eagle-import:TPTP15R")
 		(at 363.22 127 0)
 		(unit 1)
@@ -11786,6 +12210,91 @@
 			(project "keyboard"
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 185.42 218.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "102ab2a4-2cbe-47fe-bcbd-b8c98ecd88b4")
+		(property "Reference" "LED14"
+			(at 185.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 185.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 185.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 185.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "b371bebe-b61a-4977-9e42-c76193322cb1")
+		)
+		(pin "VDD"
+			(uuid "e68572c9-1fde-4a67-ba61-8319bc46ec24")
+		)
+		(pin "GND"
+			(uuid "e89ce27b-5a68-4d5b-8400-6a9fc653f72f")
+		)
+		(pin "DOUT"
+			(uuid "1a8788d3-cc27-43d0-88e2-7b5d2d532775")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -12128,6 +12637,91 @@
 		)
 	)
 	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 185.42 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "140cea9a-9ee4-4414-afaa-9b99f7897e8d")
+		(property "Reference" "LED5"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "126fabcd-7898-479a-8944-74ad15175fa9")
+		)
+		(pin "VDD"
+			(uuid "4516ef3e-f25b-4db1-984b-4cedde339657")
+		)
+		(pin "GND"
+			(uuid "189adc11-b3a9-4a79-957a-3e71a8a78e28")
+		)
+		(pin "DOUT"
+			(uuid "04b2bbc7-1a35-4240-9ef0-e82b7c744e03")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lul-eagle-import:STM32F072C8T6")
 		(at 756.92 231.14 0)
 		(unit 6)
@@ -12331,6 +12925,176 @@
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "IC1")
 					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 137.16 185.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "175942b7-fbcf-4349-9846-42ba7f0ea810")
+		(property "Reference" "LED10"
+			(at 137.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 137.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 137.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 137.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "692b054f-c62e-4ba3-bf99-a884ee6517eb")
+		)
+		(pin "VDD"
+			(uuid "2f1bbf8f-216a-402c-9c73-32ec57963b2e")
+		)
+		(pin "GND"
+			(uuid "971d64d1-9cb2-42ef-99ab-a01b997d9ee6")
+		)
+		(pin "DOUT"
+			(uuid "28f3d5ae-5a5c-4d45-b5e2-2fc5d506d8fc")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 137.16 218.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1793db6a-6dd5-4250-98fe-164969825015")
+		(property "Reference" "LED13"
+			(at 137.16 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 137.16 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 137.16 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 137.16 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "1a59b914-cf13-4305-ad2c-87f7b1c7a036")
+		)
+		(pin "VDD"
+			(uuid "6624339e-de2e-48eb-a0ba-a1f4987b97ae")
+		)
+		(pin "GND"
+			(uuid "1abc4d50-a70a-4db8-9a06-2627373b92cd")
+		)
+		(pin "DOUT"
+			(uuid "2fc72a4b-5e85-4ccc-9faa-274337cf10a4")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED13")
+					(unit 1)
 				)
 			)
 		)
@@ -13226,81 +13990,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 137.16 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22e25d1e-9999-445c-923a-b116d77933c7")
-		(property "Reference" "LED10"
-			(at 137.16 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 137.16 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 137.16 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "VDD"
-			(uuid "9c2d8eed-d039-4bdf-9fc9-001a27c0db72")
-		)
-		(pin "DOUT"
-			(uuid "0adea231-9d45-4dae-9b78-68967d0c4d7a")
-		)
-		(pin "DIN"
-			(uuid "e2594e42-6d22-4ae1-9359-8a9ade7f4df3")
-		)
-		(pin "GND"
-			(uuid "edf3d162-a29a-48bc-8f80-69cbdc84a0ee")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lul-eagle-import:CAP0805")
 		(at 40.64 114.3 180)
 		(unit 1)
@@ -13364,6 +14053,91 @@
 			(project "keyboard"
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 185.42 144.78 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24b8e495-ab0b-4b61-b6d2-871d33432866")
+		(property "Reference" "LED8"
+			(at 185.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 185.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 185.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 185.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "efb6f7e2-7e64-4815-9819-042ccf7f60e2")
+		)
+		(pin "VDD"
+			(uuid "214c225d-7b16-4034-95b8-d8d484807047")
+		)
+		(pin "GND"
+			(uuid "70d5c66b-0d70-43a9-9636-a541a5c27aa0")
+		)
+		(pin "DOUT"
+			(uuid "ae02fb81-e82b-4928-9e81-7dd93202fa97")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -13497,6 +14271,91 @@
 			(project "keyboard"
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 137.16 144.78 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "258c5af9-5e30-4c89-ab88-afe07ef1e386")
+		(property "Reference" "LED9"
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "b222e7af-ba5b-4dd6-ae29-4d0274b871f7")
+		)
+		(pin "VDD"
+			(uuid "6aaa9899-b662-46a3-8adc-61f6c71b49c4")
+		)
+		(pin "GND"
+			(uuid "e8228dcf-f6e4-461c-83a9-1af5b71a7239")
+		)
+		(pin "DOUT"
+			(uuid "a1ea0555-b25e-411a-bc9d-53f483db4247")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -13847,82 +14706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 185.42 218.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bf8ef67-f85e-496e-b5f7-37ee77fcd4d0")
-		(property "Reference" "LED14"
-			(at 185.42 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 185.42 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 185.42 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "DIN"
-			(uuid "f5399f2e-8708-4924-a298-048c3ac6e349")
-		)
-		(pin "GND"
-			(uuid "c5a158cd-a340-41fc-9b01-eb7213d947b5")
-		)
-		(pin "DOUT"
-			(uuid "ea272602-8818-4be1-9221-951205e7bfed")
-		)
-		(pin "VDD"
-			(uuid "15b2a794-37cc-4f30-8f9f-793f8bbd197a")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lul-eagle-import:joyAnalog_RESISTOR0805-RES")
 		(at 317.5 251.46 0)
 		(mirror y)
@@ -14264,82 +15047,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 185.42 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b2b19e3-1d5a-495a-bb90-561154241735")
-		(property "Reference" "LED8"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "DOUT"
-			(uuid "854b9f00-ebf1-44bb-8bb2-f21bc8b0d2ff")
-		)
-		(pin "DIN"
-			(uuid "271c933c-3c9b-4bd7-b460-5cda2050a13d")
-		)
-		(pin "GND"
-			(uuid "9b71988a-2fe3-4d7c-8df5-0b9cdb80a6cd")
-		)
-		(pin "VDD"
-			(uuid "9de2f61d-5bf7-4cdc-8a9d-553dd031e2e5")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lul-eagle-import:supply1_GND")
 		(at 637.54 279.4 0)
 		(unit 1)
@@ -14466,82 +15173,6 @@
 			(project "keyboard"
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "#GND023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 228.6 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b942c2d-3d9d-4960-9229-f6c1dd68cac2")
-		(property "Reference" "LED9"
-			(at 228.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 228.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 228.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "DOUT"
-			(uuid "e27b6982-351b-45dc-b7a2-907aaf3810ac")
-		)
-		(pin "GND"
-			(uuid "164ec82c-8d61-43d1-9212-3cc8da840c30")
-		)
-		(pin "DIN"
-			(uuid "1695ea2e-b66e-4b68-b84c-182e359adeeb")
-		)
-		(pin "VDD"
-			(uuid "5fdcde04-99b6-4b77-a334-a0a38d6d93e2")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -14741,6 +15372,91 @@
 			(project "keyboard"
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "U$9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 226.06 218.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41aa644d-93cf-4700-aaa9-115aa5870b1a")
+		(property "Reference" "LED15"
+			(at 226.06 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 226.06 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 226.06 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 226.06 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "a08995c6-77e4-4486-abbb-b0321f036662")
+		)
+		(pin "VDD"
+			(uuid "f81b3992-696c-4eff-8e5b-8a48f2054fff")
+		)
+		(pin "GND"
+			(uuid "4ebe0061-41e1-4267-ac02-e7ce93d0fc89")
+		)
+		(pin "DOUT"
+			(uuid "79719d36-1fb7-43f5-8c2e-d93ffa89dbf2")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -14952,82 +15668,6 @@
 			(project "keyboard"
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 228.6 71.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45c26bec-b230-44de-abd1-85434a912879")
-		(property "Reference" "LED3"
-			(at 228.6 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 228.6 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 228.6 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "DIN"
-			(uuid "eda17c22-2a75-4f23-a072-e868d4751f22")
-		)
-		(pin "VDD"
-			(uuid "1d84f38f-b806-42d3-84a3-f10c07f1e4f7")
-		)
-		(pin "DOUT"
-			(uuid "1e531097-c978-4dcb-a953-26f4e0725716")
-		)
-		(pin "GND"
-			(uuid "f54ba696-eea1-4ae2-992f-e4beed799faa")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -16201,6 +16841,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C434068"
+			(at 261.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a29579be-fb21-4e66-99d7-4d0d07840bb8")
 		)
@@ -16768,6 +17417,91 @@
 		)
 	)
 	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 137.16 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bf688dd-3777-4922-adc8-8e20b275459e")
+		(property "Reference" "LED4"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "7cf3c875-6a91-43f4-b0f9-dd08a70914a1")
+		)
+		(pin "VDD"
+			(uuid "c02931d5-743c-4b1c-9217-16a0e987837e")
+		)
+		(pin "GND"
+			(uuid "bae61c39-f492-4f22-aff6-d647d858140c")
+		)
+		(pin "DOUT"
+			(uuid "31864e59-d36c-4752-b44b-04d63cc5befc")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lul-eagle-import:M2_SCREW_DEV")
 		(at 845.82 48.26 0)
 		(unit 1)
@@ -16946,6 +17680,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 137.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
 			(at 137.16 71.12 0)
 			(effects
 				(font
@@ -17404,81 +18147,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 228.6 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7290ba4b-8597-4213-b29d-73ef12901224")
-		(property "Reference" "LED12"
-			(at 228.6 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 228.6 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 228.6 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "DOUT"
-			(uuid "68898ad1-9977-42a4-88e4-a7527655ff08")
-		)
-		(pin "GND"
-			(uuid "147e18b7-07d8-41db-8d1f-09a8a15c5ef9")
-		)
-		(pin "VDD"
-			(uuid "1c9bf18e-53a5-45a5-8fc3-bc6d300274ed")
-		)
-		(pin "DIN"
-			(uuid "d6b3acf7-e0ba-4377-87d2-e4d6176a8c71")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lul-eagle-import:CAP0805")
 		(at 71.12 132.08 180)
 		(unit 1)
@@ -17557,7 +18225,7 @@
 		(dnp no)
 		(uuid "73f5e504-42f4-4aba-9346-9279a5857777")
 		(property "Reference" "IC3"
-			(at 258.445 46.355 0)
+			(at 256.794 46.482 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17602,6 +18270,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C434068"
+			(at 259.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5a710dd-1101-4391-8c93-15fc6cc7a95d")
 		)
@@ -17622,6 +18299,91 @@
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "IC3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 228.6 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7426e3a5-76a2-489c-a516-a1e48fc9ea01")
+		(property "Reference" "LED6"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 228.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "4c19077e-c46f-49f3-ba85-c3eb25a91f69")
+		)
+		(pin "VDD"
+			(uuid "dee44edb-fccf-4834-bc4f-d6a2a2736057")
+		)
+		(pin "GND"
+			(uuid "6b1d93c5-9355-4cf7-9c70-562f84f30dda")
+		)
+		(pin "DOUT"
+			(uuid "384a62bf-169b-4c78-8825-38eae9561717")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED6")
+					(unit 1)
 				)
 			)
 		)
@@ -18346,6 +19108,91 @@
 			(project "keyboard"
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "U$7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 228.6 185.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81c314ff-d229-4b1c-a61d-ee096224514d")
+		(property "Reference" "LED12"
+			(at 228.6 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 228.6 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 228.6 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 228.6 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "b2489f0e-7654-4196-9fdc-8e3fab2ea13a")
+		)
+		(pin "VDD"
+			(uuid "938a3fc6-f8ed-4f6e-90db-b792e1cb74ab")
+		)
+		(pin "GND"
+			(uuid "6ba17e74-0c7e-4933-9e4d-01d3baf78982")
+		)
+		(pin "DOUT"
+			(uuid "8c9e6b69-7bed-4c78-b910-9a03630304fe")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -19426,6 +20273,91 @@
 		)
 	)
 	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 185.42 185.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98535f9d-40cc-482c-96ea-f00fd55966fb")
+		(property "Reference" "LED11"
+			(at 185.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 185.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 185.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 185.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "71418bd1-a877-4b21-b359-55d9667a9c12")
+		)
+		(pin "VDD"
+			(uuid "05de029c-c9b4-4ef8-9869-8fd7a6de20d0")
+		)
+		(pin "GND"
+			(uuid "79364b3c-90ae-44fb-9f61-60a489c10fb0")
+		)
+		(pin "DOUT"
+			(uuid "5ca24e4e-5124-44ef-a29a-3ed344eb0cdf")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lul-eagle-import:joyAnalog_RESISTOR0805-RES")
 		(at 317.5 246.38 0)
 		(mirror y)
@@ -19824,82 +20756,6 @@
 			(project "keyboard"
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 137.16 218.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bb07bbe-7f7a-4a88-998c-84e0ebee51ee")
-		(property "Reference" "LED13"
-			(at 137.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 137.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 137.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "GND"
-			(uuid "64b43fbb-9f8d-4b80-9ee2-6fb18d0155c5")
-		)
-		(pin "VDD"
-			(uuid "be877ab5-603a-42f4-ba94-2b205a9dca25")
-		)
-		(pin "DIN"
-			(uuid "24877ce9-9702-4ac1-ab45-03b6d95da608")
-		)
-		(pin "DOUT"
-			(uuid "73c49b51-0558-4231-8cf1-3c6ed621cd13")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED13")
 					(unit 1)
 				)
 			)
@@ -20584,6 +21440,91 @@
 		)
 	)
 	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 228.6 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6ababfe-fde7-4642-bd87-7fb93d432bcc")
+		(property "Reference" "LED3"
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "a08225f5-13f8-446a-9fe1-c93691c0f948")
+		)
+		(pin "VDD"
+			(uuid "04d6773a-0785-4295-b8c8-6a445bce8340")
+		)
+		(pin "GND"
+			(uuid "7ff15a8d-5e08-460c-90cb-b72e6e838e00")
+		)
+		(pin "DOUT"
+			(uuid "491aa657-f27f-414a-8591-fa3a30fd66c3")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lul-eagle-import:STM32F072C8T6")
 		(at 746.76 261.62 0)
 		(unit 5)
@@ -21058,82 +21999,6 @@
 			(project "keyboard"
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "#+3V015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 137.16 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad967eb9-55a9-4abc-8d81-0012309608d2")
-		(property "Reference" "LED7"
-			(at 137.16 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 137.16 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 137.16 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "DIN"
-			(uuid "3b026134-a212-4b92-bad5-8598fe16fb6c")
-		)
-		(pin "GND"
-			(uuid "09584f0d-ade4-48bb-8b72-80301db7eea1")
-		)
-		(pin "DOUT"
-			(uuid "511ccf56-0463-41b7-acb3-e924c43eeb8f")
-		)
-		(pin "VDD"
-			(uuid "3c2d1f20-5e09-401c-8c39-03864fd21b20")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -22002,6 +22867,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C7529389"
+			(at 642.62 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "412f5455-76c4-4669-991d-168308b21cf3")
 		)
@@ -22392,81 +23266,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 185.42 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6c0ef4f-6d2d-4e53-94e5-1260bf8108f8")
-		(property "Reference" "LED11"
-			(at 185.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 185.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 185.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "GND"
-			(uuid "c4a52afa-deb2-4f5c-a325-0d87c92c883f")
-		)
-		(pin "DIN"
-			(uuid "a9b7021a-e99b-405e-9277-c7e66b82a4b4")
-		)
-		(pin "DOUT"
-			(uuid "87fbb277-78d5-4523-a476-f63dd1824f28")
-		)
-		(pin "VDD"
-			(uuid "2541c9db-7f9e-4c09-b797-f710e12ad850")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lul-eagle-import:M2_SCREW_DEV")
 		(at 845.82 78.74 0)
 		(unit 1)
@@ -22524,81 +23323,6 @@
 			(project "keyboard"
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "U$17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 228.6 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da7e5dee-14f2-4c03-81ad-8a7dc1d4e5f4")
-		(property "Reference" "LED6"
-			(at 228.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 228.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 228.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "VDD"
-			(uuid "c56c1df9-f0e4-4eb7-973c-3e6d88afa365")
-		)
-		(pin "GND"
-			(uuid "ec0ee505-39ba-4b27-9bab-262bc6772ccd")
-		)
-		(pin "DOUT"
-			(uuid "cd3d6689-caf6-4987-8e2c-47d6ae7971dc")
-		)
-		(pin "DIN"
-			(uuid "4d532c52-5518-4f13-b6e4-a4228192eae5")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -22813,82 +23537,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 226.06 218.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dcc9a779-0b72-40fd-aa5f-331c38e27d15")
-		(property "Reference" "LED15"
-			(at 226.06 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 226.06 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 226.06 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "DIN"
-			(uuid "446b7177-c799-4ed4-b66f-cd5ac1bcb393")
-		)
-		(pin "DOUT"
-			(uuid "63531fa3-faa8-479a-8a1c-2d148406bcf4")
-		)
-		(pin "GND"
-			(uuid "18635731-b564-4200-92fd-ecad66c7e705")
-		)
-		(pin "VDD"
-			(uuid "e047c759-ad6f-4798-8ff9-4c61561d11de")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lul-eagle-import:supply1_GND")
 		(at 137.16 198.12 0)
 		(unit 1)
@@ -23067,6 +23715,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 680.72 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7470081"
 			(at 680.72 289.56 0)
 			(effects
 				(font
@@ -23305,82 +23962,6 @@
 			(project "keyboard"
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
 					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lul-eagle-import:WS2812B")
-		(at 185.42 71.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1329665-87c9-4c0d-97c4-4704548317b1")
-		(property "Reference" "LED2"
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lul:REVERSE_MNT"
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "DIN"
-			(uuid "b59b2e4b-6f5e-4bcf-817d-5f11b85d89f6")
-		)
-		(pin "GND"
-			(uuid "5043a4ae-9c00-40cc-9299-2e412673adf9")
-		)
-		(pin "DOUT"
-			(uuid "41226694-acf8-4584-9bdc-4c2fe925f252")
-		)
-		(pin "VDD"
-			(uuid "b3932520-f25c-48e2-81e8-3bfae2811e59")
-		)
-		(instances
-			(project "keyboard"
-				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -24205,6 +24786,91 @@
 		)
 	)
 	(symbol
+		(lib_id "lul-eagle-import:WS2812B")
+		(at 228.6 144.78 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f230c9e6-7234-4fce-a349-64f3a501ed37")
+		(property "Reference" "LED7"
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lul:REVERSE_MNT"
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4154882"
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DIN"
+			(uuid "44497fcb-6661-4cdb-9814-612bb54bbc64")
+		)
+		(pin "VDD"
+			(uuid "7befe762-dc08-42a3-b3e6-65de34066c97")
+		)
+		(pin "GND"
+			(uuid "15cedc37-0a95-4478-9fff-e618de3d1fc1")
+		)
+		(pin "DOUT"
+			(uuid "b79eb0a5-9946-4bdb-93a5-325097530c84")
+		)
+		(instances
+			(project "keyboard"
+				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lul-eagle-import:M2_SCREW_DEV")
 		(at 845.82 93.98 0)
 		(unit 1)
@@ -24332,15 +24998,16 @@
 	)
 	(symbol
 		(lib_id "lul-eagle-import:WS2812B")
-		(at 137.16 106.68 0)
+		(at 185.42 71.12 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f40dc92c-76bd-4c7d-93ed-94100e679e91")
-		(property "Reference" "LED4"
-			(at 137.16 106.68 0)
+		(uuid "f42ea385-e1c5-4191-a6d2-249d93e8ff1e")
+		(property "Reference" "LED2"
+			(at 185.42 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24349,7 +25016,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 137.16 106.68 0)
+			(at 185.42 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24358,7 +25025,7 @@
 			)
 		)
 		(property "Footprint" "lul:REVERSE_MNT"
-			(at 137.16 106.68 0)
+			(at 185.42 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24367,7 +25034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 106.68 0)
+			(at 185.42 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24376,7 +25043,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 106.68 0)
+			(at 185.42 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24384,22 +25051,31 @@
 				(hide yes)
 			)
 		)
-		(pin "DOUT"
-			(uuid "22accde2-8ba4-41f9-acce-bdecd039bd6b")
-		)
-		(pin "VDD"
-			(uuid "d1976f0b-b81e-4151-994f-10531e2f4c3b")
+		(property "LCSC Part" "C4154882"
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "DIN"
-			(uuid "0db4372b-00c6-4dc1-be26-95de42f4139e")
+			(uuid "266efaa3-be38-4070-a451-32b32c261fa0")
+		)
+		(pin "VDD"
+			(uuid "9a8889ba-67e0-4ab5-a974-d718c9249390")
 		)
 		(pin "GND"
-			(uuid "f645dbdc-3948-4248-b0cd-d434ba4d4e69")
+			(uuid "70ecb42f-201c-4d83-ba0e-2061e9177d7c")
+		)
+		(pin "DOUT"
+			(uuid "1de42f64-dd68-4d9c-9065-af09852d1694")
 		)
 		(instances
 			(project "keyboard"
 				(path "/e76b9378-49c4-407d-9c14-2fb806106662"
-					(reference "LED4")
+					(reference "LED2")
 					(unit 1)
 				)
 			)

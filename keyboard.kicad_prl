@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "Back Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "0015055_80000000",
+    "visible_layers": "0015055_80000001",
     "zone_display_mode": 0
   },
   "git": {
@@ -80,7 +80,7 @@
   "project": {
     "files": [
       {
-        "name": "keyboard.kicad_pcb",
+        "name": "keyboard.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
@@ -92,7 +92,7 @@
         }
       },
       {
-        "name": "keyboard.kicad_sch",
+        "name": "keyboard.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,

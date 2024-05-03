@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 31,
-    "active_layer_preset": "",
+    "active_layer": 0,
+    "active_layer_preset": "Front Layers",
     "auto_track_width": true,
     "hidden_netclasses": [
       "Default"
@@ -30,7 +30,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -75,7 +75,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffa8_7fffffff",
+    "visible_layers": "00290aa_00000001",
     "zone_display_mode": 1
   },
   "git": {

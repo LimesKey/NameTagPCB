@@ -16,6 +16,6 @@
 
 
 ## [PCBWay](https://www.pcbway.com/)
-PCBWay has been enormously helpful with getting my design manufactured, with their supportive engineers highlighting working with my design adding suggestions, and their extensive catalogue of parts available for assembly, it's been a pleasure working with them. PCBWay gave us the opportunity to supply hackers (high-schoolers) with 200 NameTag badges at the hackathon in May. Soldering classes were run and people had a blast seeing my design choices and learning how the PCB worked and was put together.
+PCBWay has been enormously helpful with getting my design manufactured and brought to life, with their supportive engineers highlighting possible complications with my design, and their rapid and low-cost manufacturing, it's been a pleasure working with them. PCBWay allowed us to supply all 150 high-school hackers with a nametag badge PCB each. Soldering classes were run and people had a blast seeing my design choices and learning how the PCB worked and was put together.
 
 ![PCBWay Logo](https://pic-microcontroller.com/wp-content/uploads/2020/04/PCBWAY.COM-MANUFACTURER-REVIEW.png) 
